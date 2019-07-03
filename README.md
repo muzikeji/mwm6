@@ -2,29 +2,11 @@
 <! DOCTYPE html>
 <html>
 <head>
-<title>关于作者</title>
-   <meta charset="utf-8" />     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<link rel="stylesheet" href="https://nturpin0.github.io/OutputKit/bootstrap.min.css"  type="text/css">
-
-<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
-<style>
-body {  
-	padding-top: 10px;
-      background: #00ec45 !important;
-      background-repeat: no-repeat !important;
-background-size: 100% !important;
-background-attachment: fixed !important;
-}
-</style>
-
 
 </head>
 <body>
 
 <div class="container rounded">
-
-<!–– OutputKit   Output Area ––>
 
 <ul class="list-group">
   <li class="list-group-item"><h1>作者主页</h1><p>
