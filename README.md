@@ -1,79 +1,64 @@
-# .github.io
+
 <html>
 <head>
+   <meta charset="utf-8" />   
+<style>
+ .thumbnail
+{
+	float:left;
+	margin:5px;
+}
 
+</style>
 </head>
-<body>
 
-<div class="container rounded">
-
-<ul class="list-group">
-  <li class="list-group-item"><h1>作者主页</h1><p>
+  <li class="list-group-item">
+<p>
 <a href="https://jiejinghe.com/users/6563404841">
-<img  border="10" src="https://i.loli.net/2019/06/27/5d14b5b33217297297.jpeg" alt="木子李" width="32" height="32"></a>点击头像直达</p></li>
-  <li class="list-group-item">越接近，越完美；用捷径，更轻松！</li></ul>
-<hr>
-<ul class="list-group">  <li class="list-group-item"><h4></i>
+<img  border="10" src="https://i.loli.net/2019/07/07/5d214ffc12e4311788.png" alt="木子李" width="100%" height="auto"></a></p></li>
+  <li class="list-group-item">越接近，越完美；用捷径，更轻松！</li>
+<p> ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃</p>
+   <li class="list-group-item">
+<h2>⌘捷径推荐</h2><h5>点击捷径名称获取（iOS12下载历史版本）</h5></li>
 
-⌘捷径推荐</h4><h5>点击捷径名称获取（iOS12下载历史版本）。</h5></li>
- <li class="list-group-item">
-</ a><a style="color: #4843e0;text-decoration:none;" href="https://jiejinghe.com/shortcuts/5130922633"><h4> 安心记加班</h4></ a>
-<a <h5>简介： 安心记加班上线了，记录每天加班，算出加班费，保存信息，每月查看</h5></ a>
-</li>
-<li class="list-group-item">
-</ a><a style="color: #cf44ea;text-decoration:none;" href="https://www.icloud.com/shortcuts/63daae50ef8c43038a67c19224cef537"><h4> 在线影视资源</h4></ a>
-<a <h5>简介：‍可‍以‍解析‍各大影视会员视频‍，也可以在线搜索观看视频。解析视频使用方法：1⃣️复制会员视频链接2⃣️运行此捷径，选择解析接口即可播放。</h5></ a>
-</li>
-<li class="list-group-item">
-</ a><a style="color: #ee2828;text-decoration:none;" href="https://jiejinghe.com/shortcuts/7076318015"><h4> ◐双色球</h4></ a>
-<a <h5>简介： 这是一个双色球摇号和查询开奖的工具，在这里你可以随机抽取属于你的幸运号码！</h5></ a>
-</li>
-<li class="list-group-item">
-</ a><a style="color: #3f844e;text-decoration:none;" href="https://jiejinghe.com/shortcuts/3548598087"><h4> 快捷支付</h4></ a>
-<a <h5>简介：‍快捷‍打开‍常用‍支付‍方式‍以及‍常用‍应用，‍菜单‍附带‍图标，‍‍清晰‍可见</h5></ a>
-</li>
-  <li class="list-group-item">
-<a style="color: #d23f3f;text-decoration:none;" href="https://weibo.com/u/5090561214"><h5> 关注作者微博 </h5></ a> </li>
-  <li class="list-group-item">
-</ a><a style="color: #080ced;text-decoration:none;" href="https://www.iesdouyin.com/share/user/93853200610?u_code=14cmha85d&utm_campaign=client_share&app=aweme&utm_medium=ios&tt_from=copy&utm_source=copy"><h5> 作者抖音 </h5></ a></li></ul>
-</ul> <hr>
-<ul class="list-group">
-  <li class="list-group-item"><h4>
-<i class="❖"></i> ▤作者简介</h4></li>
-  <li class="list-group-item">
-昵称：木子李
-</li>
-  <li class="list-group-item">
-出生日期：1991.02.18 29岁。</li>
-  <li class="list-group-item">
-  性别：男</li>
-  <li class="list-group-item">
-人生格言:
-<div class="table-responsive">
-<tr><th> 人生如逆旅，我亦是行人。 </th>
+<a href="https://jiejinghe.com/shortcuts/7076318015">
+<img  class="thumbnail"  src="https://i.loli.net/2019/07/07/5d213eb233b0c31057.png" alt="木子李" width="350" height="auto"></a>
 
-</tr>
-</table></div>
-</li>
-</ul>
-<hr>
+<a href="https://www.icloud.com/shortcuts/19b4d6a90dfd40b3b963546cf67b77fe">
+<img  class="thumbnail"  src="https://i.loli.net/2019/07/07/5d213f5ea211a25101.png" alt="木子李" width="350" height="auto"></a>
 
-<ul class="list-group">  <li class="list-group-item"><h4></i> ☻联系方式</h4></li>
-  <li class="list-group-item">
-微信：Miss-baby_ </li>
- <li class="list-group-item">
-公众号：苹果捷径科技</li>
-  <li class="list-group-item">
-QQ：56794501</li>
-  <li class="list-group-item">
-邮箱📮：56794501@qq.com </li>
-</tr>
-</table></div>
-</li>
-</ul>
-<hr>
+<a href="https://jiejinghe.com/shortcuts/3251736150">
+<img  class="thumbnail"  src="https://i.loli.net/2019/07/06/5d202bb965e0330944.png" alt="木子李" width="350" height="auto"></a>
 
-</div>
+<a href="https://jiejinghe.com/shortcuts/3548598087">
+<img  class="thumbnail"  src="https://i.loli.net/2019/07/06/5d20309c6a95a72537.png" alt="木子李" width="350" height="auto"></a>
 
-</body>
-</html>
+<a href="https://www.icloud.com/shortcuts/6fcb210155b047b8a609f0e87db7a6a8">
+<img  class="thumbnail"  src="https://i.loli.net/2019/07/06/5d202c774100c14856.png" alt="木子李" width="350" height="auto"></a>
+<p>
+ 
+<div style="clear:both"> <li class="list-group-item">
+<p> ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃</p>
+<h1>联系作者</h1>
+
+
+<a href="mailto: 56794501@qq.com">
+<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d21902b5cd7c55863.png" alt="木子李" width="50" height="auto"></a>
+
+<a href="https://weibo.com/u/5090561214">
+<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d21c121bc83c83026.jpeg" alt="木子李" width="50" height="auto"></a>
+
+<a href="http://v.douyin.com/kkpWm9/">
+<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d218fdd7a67410088.png" alt="木子李" width="50" height="auto"></a>
+
+<a href="https://i.loli.net/2019/07/07/5d2179d35dc7b18495.jpeg">
+<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d219005d7f9227300.png" alt="木子李" width="50" height="auto"></a>
+
+<a href="https://i.loli.net/2019/07/07/5d2179b19fdc821787.png">
+<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d218fefeb27257061.png" alt="木子李" width="50" height="auto"></a>
+
+<a href="mqq://im/chat?chat_type=wpa&uin=56794501&version=1&src_type=web">
+<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d2190199d6b528735.png" alt="木子李" width="50" height="auto"></a>
+
+<a href="https://jq.qq.com/?_wv=1027&k=52kOjWC">
+<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d21707b0882377033.png" alt="木子李" width="50" height="auto"></a>
