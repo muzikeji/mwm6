@@ -46,8 +46,6 @@ body {font-size:100%;}
 h1 {font-size:2.5em;}
 h2 {font-size:1.875em;}
 p {font-size:0.875em;}
-
-a:visited {background-color:#000000;} /* 已访问链接 */
 a:hover {background-color:#FF704D;}   /* 鼠标移动到链接上 */
 a:active {background-color:#FF704D;}  /* 鼠标点击时 */
 
