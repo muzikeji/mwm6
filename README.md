@@ -63,7 +63,6 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
   <li><a href="#about">关于</a></li>
 </ul>
 <h1>我们主推苹果快捷指令</h1>
-<h2>对苹果手机用户来说快捷指令是一个非常给力的应用！</h2>
 <p>如果在 iPhone 上只能保留一款 App ，我一定会选择<b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b></p>
 <h2> 首先我想谈一下捷径的优势是什么？</h2>
 <h4>
