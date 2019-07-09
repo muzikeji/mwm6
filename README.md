@@ -39,7 +39,7 @@ li a:hover:not(.active) {
 }
 
 .active {
-    background-color: #000000;
+    background-color: #4682b4;
 }
 
 body {font-size:100%;}
