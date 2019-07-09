@@ -57,7 +57,7 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
 <ul>
   <li><a href="http://jiejingkeji.top">主页</a></li>
   <li><a href="https://jiejinghe.com/search">捷径搜索</a></li>
-  <li><a href="#contact">联系</a></li>
+  <li><a href="https://mzljjkj.github.io/iPhone.github.io/">联系</a></li>
   <li><a  class="active" href="https://mzljjkj.github.io/.github.io/">关于</a></li>
 </ul>
 <h1>我们主推iPhone <b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b> </h1>
