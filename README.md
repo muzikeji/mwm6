@@ -1,64 +1,75 @@
-
 <html>
 <head>
-   <meta charset="utf-8" />   
+<meta charset="utf-8">
 <style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #111;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
  .thumbnail
 {
 	float:left;
 	margin:5px;
 }
 
+.text_line
+{
+	clear:both;
+	margin-bottom:2px;
+}
+
+body {font-size:100%;}
+h1 {font-size:2.5em;}
+h2 {font-size:1.875em;}
+p {font-size:0.875em;}
+
+a:link {background-color:#B2FF99;}    /* 未访问链接 */
+a:visited {background-color:#FFFF85;} /* 已访问链接 */
+a:hover {background-color:#FF704D;}   /* 鼠标移动到链接上 */
+a:active {background-color:#FF704D;}  /* 鼠标点击时 */
+
 </style>
 </head>
 
-  <li class="list-group-item">
-<p>
 <a href="https://jiejinghe.com/users/6563404841">
-<img  border="10" src="https://i.loli.net/2019/07/07/5d214ffc12e4311788.png" alt="木子李" width="100%" height="auto"></a></p></li>
-  <li class="list-group-item">越接近，越完美；用捷径，更轻松！</li>
-<p> ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃</p>
-   <li class="list-group-item">
-<h2>⌘捷径推荐</h2><h5>点击捷径名称获取（iOS12下载历史版本）</h5></li>
+<img  border="0" src="https://i.loli.net/2019/07/08/5d2302eb097e054357.png" alt="木子李" width="100%" height="auto"></a>
+<ul>
+  <li><a class="active" href="http://jiejingkeji.top">主页</a></li>
+  <li><a href="#news">新闻</a></li>
+  <li><a href="#contact">联系</a></li>
+  <li><a href="#about">关于</a></li>
+</ul>
+<h1>我们主推苹果快捷指令</h1>
+<h2>对苹果手机用户来说快捷指令是一个非常给力的应用！</h2>
+<p>如果在 iPhone 上只能保留一款 App ，我一定会选择<b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b></p>。
+<h2> 首先我想谈一下捷径的优势是什么？
 
-<a href="https://jiejinghe.com/shortcuts/7076318015">
-<img  class="thumbnail"  src="https://i.loli.net/2019/07/07/5d213eb233b0c31057.png" alt="木子李" width="350" height="auto"></a>
-
-<a href="https://www.icloud.com/shortcuts/19b4d6a90dfd40b3b963546cf67b77fe">
-<img  class="thumbnail"  src="https://i.loli.net/2019/07/07/5d213f5ea211a25101.png" alt="木子李" width="350" height="auto"></a>
-
-<a href="https://jiejinghe.com/shortcuts/3251736150">
-<img  class="thumbnail"  src="https://i.loli.net/2019/07/06/5d202bb965e0330944.png" alt="木子李" width="350" height="auto"></a>
-
-<a href="https://jiejinghe.com/shortcuts/3548598087">
-<img  class="thumbnail"  src="https://i.loli.net/2019/07/06/5d20309c6a95a72537.png" alt="木子李" width="350" height="auto"></a>
-
-<a href="https://www.icloud.com/shortcuts/6fcb210155b047b8a609f0e87db7a6a8">
-<img  class="thumbnail"  src="https://i.loli.net/2019/07/06/5d202c774100c14856.png" alt="木子李" width="350" height="auto"></a>
-<p>
- 
-<div style="clear:both"> <li class="list-group-item">
-<p> ▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃▃</p>
-<h1>联系作者</h1>
-
-
-<a href="mailto: 56794501@qq.com">
-<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d21902b5cd7c55863.png" alt="木子李" width="50" height="auto"></a>
-
-<a href="https://weibo.com/u/5090561214">
-<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d21c121bc83c83026.jpeg" alt="木子李" width="50" height="auto"></a>
-
-<a href="http://v.douyin.com/kkpWm9/">
-<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d218fdd7a67410088.png" alt="木子李" width="50" height="auto"></a>
-
-<a href="https://i.loli.net/2019/07/07/5d2179d35dc7b18495.jpeg">
-<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d219005d7f9227300.png" alt="木子李" width="50" height="auto"></a>
-
-<a href="https://i.loli.net/2019/07/07/5d2179b19fdc821787.png">
-<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d218fefeb27257061.png" alt="木子李" width="50" height="auto"></a>
-
-<a href="mqq://im/chat?chat_type=wpa&uin=56794501&version=1&src_type=web">
-<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d2190199d6b528735.png" alt="木子李" width="50" height="auto"></a>
-
-<a href="https://jq.qq.com/?_wv=1027&k=52kOjWC">
-<img  class="thumbnail 1"  src="https://i.loli.net/2019/07/07/5d21707b0882377033.png" alt="木子李" width="50" height="auto"></a>
+<p>1.简单：捷径是我见过的学习成本最低的脚本语言，它的操作极为简单，通过拖拽即可实现基本的功能，你甚至不用写一行代码。</p>
+<p>2.强大：在捷径 App 被苹果官方收购以后，iOS 为捷径赋予强大的能力，使其完全可以胜任很多小型 App 能完成的所有功能，还可以在一些臃肿的 App 中提取出你需要的功能。</p>
+<p> 3.轻量：它的脚本像小程序一样轻便易用，而且在不运行的时候不会对你造成任何干扰。</p>
+<p> 4.有趣：透过它提供的众多动作，可以组合出许多好玩的功能，就像搭积木一样好玩。</p>
+</h2>
