@@ -56,7 +56,7 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
 <img  border="0" src="https://i.loli.net/2019/07/08/5d2302eb097e054357.png" alt="木子李" width="100%" height="auto"></a>
 <ul>
   <li><a href="http://jiejingkeji.top">主页</a></li>
-  <li><a href="https://jiejinghe.com/search">捷径搜索🔍</a></li>
+  <li><a href="https://jiejinghe.com/search">捷径搜索</a></li>
   <li><a href="#contact">联系</a></li>
   <li><a  class="active" href="https://mzljjkj.github.io/.github.io/">关于</a></li>
 </ul>
