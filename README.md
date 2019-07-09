@@ -47,6 +47,7 @@ h1 {font-size:2.5em;}
 h2 {font-size:1.875em;}
 p {font-size:0.875em;}
 
+a:link {color:#000000;}      /* 未访问链接*/
 a:visited {background-color:#FFFF85;} /* 已访问链接 */
 a:hover {background-color:#FF704D;}   /* 鼠标移动到链接上 */
 a:active {background-color:#FF704D;}  /* 鼠标点击时 */
@@ -58,9 +59,9 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
 <img  border="0" src="https://i.loli.net/2019/07/08/5d2302eb097e054357.png" alt="木子李" width="100%" height="auto"></a>
 <ul>
   <li><a class="active" href="http://jiejingkeji.top">主页</a></li>
-  <li><a href="#news">新闻</a></li>
+  <li><a href="https://jiejinghe.com/search">捷径搜索🔍</a></li>
   <li><a href="#contact">联系</a></li>
-  <li><a href="#about">关于</a></li>
+  <li><a href="https://mzljjkj.github.io/.github.io/">关于</a></li>
 </ul>
 <h1>我们主推苹果快捷指令</h1>
 <p>如果在 iPhone 上只能保留一款 App ，我一定会选择<b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b></p>
