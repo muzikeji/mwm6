@@ -38,6 +38,10 @@ li a:hover:not(.active) {
 	margin-bottom:2px;
 }
 
+.active {
+    background-color: #000000;
+}
+
 body {font-size:100%;}
 h1 {font-size:2.5em;}
 h2 {font-size:1.875em;}
@@ -54,7 +58,7 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
   <li><a href="http://jiejingkeji.top">主页</a></li>
   <li><a href="https://jiejinghe.com/search">捷径搜索🔍</a></li>
   <li><a href="#contact">联系</a></li>
-  <li><a href="https://mzljjkj.github.io/.github.io/">关于</a></li>
+  <li><a  class="active" href="https://mzljjkj.github.io/.github.io/">关于</a></li>
 </ul>
 <h1>我们主推苹果快捷指令</h1>
 <p>如果在 iPhone 上只能保留一款 App ，我一定会选择<b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b></p>
