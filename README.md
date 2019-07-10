@@ -2,6 +2,8 @@
 <head>
 <meta charset="utf-8">
 <style>
+
+h1 { display:none; }
 ul {
     list-style-type: none;
     margin: 0;
@@ -60,7 +62,7 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
   <li><a href="https://mzljjkj.github.io/iPhone.github.io/">联系</a></li>
   <li><a  class="active" href="https://mzljjkj.github.io/.github.io/">关于</a></li>
 </ul>
-<h1>我们主推iPhone <b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b> </h1>
+<h2>我们主推iPhone <b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b> </h2>
 <p>如果在 iPhone 上只能保留一款 App ，我一定会选择<b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b></p>
 <h2> 首先我想谈一下捷径的优势是什么？</h2>
 <h4>
