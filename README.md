@@ -75,7 +75,7 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
 <p>快捷指令（原捷径）是 iOS 平台的效率神器，她能让你把多个任务组合成一个快捷方式。例如：您可以建构一个“上班“的快捷指令来获取当前天气，路上预计时间，以及打开音频APP（喜马拉雅，得到）。</p>
 
 <h2>使用快捷指令需要满足什么条件？</h2>
-<p>快捷指令仅适用于 iOS 系统📱 ，您需要升级到 iOS12 并在 App Store 下载「捷径」APP 后方可使用。</p>
+<p>快捷指令仅适用于 iOS 系统📱 ，您需要升级到 iOS12➕ 并在 App Store 下载「捷径」APP 后方可使用。</p>
 
 <div style='height:50px; line-height:50px; text-align:center; color: #b2b2b2;'>
  
