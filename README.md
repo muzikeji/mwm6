@@ -76,6 +76,8 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
 
 <h2>使用快捷指令需要满足什么条件？</h2>
 <p>快捷指令仅适用于 iOS 系统📱 ，您需要升级到 iOS12➕ 并在 App Store 下载「捷径」APP 后方可使用。</p>
+<h2>欢迎各位捷径爱好者加入我们一起交流学习捷径制作！</h2>
+<p>有兴趣的可以通过“联系”菜单内的方式加入我们！</p>
 
 <div style='height:50px; line-height:50px; text-align:center; color: #b2b2b2;'>
  
@@ -88,19 +90,5 @@ important;height:40px !important;" src="http://pic.kuaizhan.com/g2/M00/71/9D/wKj
  
          <img style="position:fixed;right:0; bottom:100px; z-index:99999; width:40px !
 important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQVFbSmpCAdtMEAAEO6ESdBwI3920068" />
-
-<style>
-.gc-comments {font-size: 12px;}
-</style>
-<script src="mqq://im/chat?chat_type=wpa&uin=56794501&version=1&src_type=web"></script>
-<div class="gc-comments" data-repos="mqq://im/chat?chat_type=wpa&uin=56794501&version=1&src_type=web" data-issues="1" >
-    <div class="mqq://im/chat?chat_type=wpa&uin=56794501&version=1&src_type=web">
-        发送留言
-    </div>
-    <div class="gc-comments-info">
-        把对本站的建议和意见发送给客服💁💁🏻‍♂️<a href="{{issues_link}}">{{issues_link}}</a> 提交评论须安装QQ
-    </div>
-</div>
-
-
+ 
 
