@@ -98,7 +98,7 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
         发送留言
     </div>
     <div class="gc-comments-info">
-        把对本站的建议和意见发送给客服💁💁🏻‍♂️<a href="{{issues_link}}">{{issues_link}}</a> 提交评论
+        把对本站的建议和意见发送给客服💁💁🏻‍♂️<a href="{{issues_link}}">{{issues_link}}</a> 提交评论须安装QQ
     </div>
 </div>
 
