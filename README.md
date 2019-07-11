@@ -76,8 +76,8 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
 
 <h2>使用快捷指令需要满足什么条件？</h2>
 <p>快捷指令仅适用于 iOS 系统📱 ，您需要升级到 iOS12➕ 并在 App Store 下载「捷径」APP 后方可使用。</p>
-<h2>欢迎各位捷径爱好者加入我们一起交流学习捷径制作！</h2>
-<p>有兴趣的可以通过“联系”菜单内的方式加入我们！</p>
+<h2>友情提示</h2>
+<p>本站为木子李作者的个人小站，更多捷径请前往捷径盒官网：www.jiejinghe.com下载使用！</p>
 
 <div style='height:50px; line-height:50px; text-align:center; color: #b2b2b2;'>
  
