@@ -89,6 +89,36 @@ important;height:40px !important;" src="http://pic.kuaizhan.com/g2/M00/71/9D/wKj
          <img style="position:fixed;right:0; bottom:100px; z-index:99999; width:40px !
 important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQVFbSmpCAdtMEAAEO6ESdBwI3920068" />
 
+   <style type="text/css">
+            #comments{
+                margin:10px auto;
+            }
+            #post{
+                margin-top:10px;
+            }
+            #comments p,
+            #post p{
+                line-height:30px;
+            }
+            #comments p span{
+                margin:4px;
+                color:#bdb8b8;
+            }
+            #message{
+                position: absolute;
+                top: 40%;
+                left: 100px;
+                width: 200px;
+                height: 50px;
+                background: #f2f2f2;
+                border: 1px solid;
+                border-radius: 3px;
+                line-height: 50px;
+                text-align: center;
+                display: none;
+            }
+        </style>
+
 <style>
 .gc-comments {font-size: 12px;}
 </style>
