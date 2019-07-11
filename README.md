@@ -93,8 +93,8 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
 .gc-comments {font-size: 12px;}
 </style>
 <script src="mqq://im/chat?chat_type=wpa&uin=56794501&version=1&src_type=web"></script>
-<div class="gc-comments" data-repos="nimojs/github-comments" data-issues="1" >
-    <div class="gc-comments-title">
+<div class="gc-comments" data-repos="mqq://im/chat?chat_type=wpa&uin=56794501&version=1&src_type=web" data-issues="1" >
+    <div class="mqq://im/chat?chat_type=wpa&uin=56794501&version=1&src_type=web">
         发送留言
     </div>
     <div class="gc-comments-info">
