@@ -88,6 +88,20 @@ important;height:40px !important;" src="http://pic.kuaizhan.com/g2/M00/71/9D/wKj
  
          <img style="position:fixed;right:0; bottom:100px; z-index:99999; width:40px !
 important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQVFbSmpCAdtMEAAEO6ESdBwI3920068" />
+
  
+<style>
+.gc-comments {font-size: 12px;}
+</style>
+<script src="http://nimojs.github.io/github-comments/gc.js"></script>
+<div class="gc-comments" data-repos="nimojs/github-comments" data-issues="1" >
+    <div class="gc-comments-title">
+        评论
+    </div>
+    <div class="gc-comments-info">
+        想在此留下评论，请访问 <a href="{{issues_link}}">{{issues_link}}</a> 提交评论
+    </div>
+</div>
+
 
 
