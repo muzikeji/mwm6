@@ -66,7 +66,7 @@ p {text-align:left;}
   <li><a  class="active" href="https://mzljjkj.github.io/.github.io/">关于</a></li>
 </ul>
 
-<div style='height:50px; line-height:0px; text-align:center; color: #000000;'>
+<div style='height:50px; line-height:auto; text-align:center; color: #000000;'>
  
     <a href="http://jiejingkeji.top">
  
