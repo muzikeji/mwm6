@@ -66,13 +66,12 @@ p {text-align:left;}
   <li><a  class="active" href="https://mzljjkj.github.io/.github.io/">关于</a></li>
 </ul>
 
-<div style='height:50px; line-height:50px; text-align:center; color: #000000;'>
+<div style='height:50px; line-height:0px; text-align:center; color: #000000;'>
  
     <a href="http://jiejingkeji.top">
  
         <img style="position:fixed;right:0; bottom:160px; z-index:99999; width:40px !
 important;height:40px !important;" src="http://pic.kuaizhan.com/g2/M00/71/9D/wKjmqlbSmoyAYCswAAEVnPTZD8E8141345" />
-</div>
  
     <a style="z-index:99999;" id="goTop" href="#">
  
