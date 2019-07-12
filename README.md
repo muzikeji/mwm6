@@ -131,12 +131,12 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
 <div class="responsive">
   <div class="img">
     <a target="_blank" href="//static.runoob.com/images/demo/demo1.jpg">
-      <img src="https://i.loli.net/2019/07/12/5d282bd0caa4384320.jpeg" alt="征帖" width="380" height="420">
+      <img src="https://i.loli.net/2019/07/12/5d282bd0caa4384320.jpeg" alt="征帖" width="100%" height="auto">
     </a>
     <div class="desc"> <h2>征婚贴</h2>
 <p>姓名：孙小东</p>
 <p>年龄：31岁</p>
-<p>年收入：10W➕</p> <p>文凭：大专</p>
+<p>年收入：1W➕</p> <p>文凭：大专</p>
  <p>性格：内向</p>
 <p>其他：做的一手好菜，为人真诚、大方！轻度抽烟🚬、饮酒🍻</p>
 
