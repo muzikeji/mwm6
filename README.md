@@ -144,8 +144,4 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
   </div>
 </div>
 
-<div class="ex">
-<h2>®️版权所有|盗版必究</h2>
-<h2> <a href="http://jiejingkeji.top">网站首页</a> | <a href="mailto:56794501@qq.com">商务合作</a> </h2>
-</div>
 
