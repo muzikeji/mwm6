@@ -126,7 +126,7 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
 <h2>友情提示</h2>
 <p>本站为木子李作者的个人小站，喜欢作者记得收藏本站，更多捷径请前往
 <a href="https://jiejinghe.com" target="_blank">捷径盒官网</a>下载使用！</p>
-
+<p>下面是朋友征婚启事</p>
 
 <div class="responsive">
   <div class="img">
@@ -136,7 +136,7 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
     <div class="desc"> <h2>征婚贴</h2>
 <p>姓名：孙小东</p>
 <p>年龄：31岁</p>
-<p>年收入：1W➕</p> <p>文凭：大专</p>
+<p>年收入：7W➕</p> <p>文凭：大专</p>
  <p>性格：内向</p>
 <p>其他：做的一手好菜，为人真诚、大方！轻度抽烟🚬、饮酒🍻</p>
 <p>有意者联系微信：sxd1221jy</p>
