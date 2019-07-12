@@ -52,7 +52,7 @@ a:hover {background-color:#FF704D;}   /* 鼠标移动到链接上 */
 a:active {background-color:#FF704D;}  /* 鼠标点击时 */
 
 h2 {text-align:center;}
-p {text-align:right;}
+p {text-align:left;}
 
 </style>
 </head>
