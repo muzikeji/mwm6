@@ -131,7 +131,7 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
 <div class="responsive">
   <div class="img">
     <a target="_blank" href="//static.runoob.com/images/demo/demo1.jpg">
-      <img src="https://i.loli.net/2019/07/12/5d282bd0caa4384320.jpeg" alt="征帖" width="auto" height="auto">
+      <img src="https://i.loli.net/2019/07/12/5d282bd0caa4384320.jpeg" alt="征帖" width="380" height="420">
     </a>
     <div class="desc"> <h2>征婚贴</h2>
 <p>姓名：孙小东</p>
