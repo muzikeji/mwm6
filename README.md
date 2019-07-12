@@ -87,7 +87,7 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
 
 <h2>使用快捷指令需要满足什么条件？</h2>
 <p>快捷指令仅适用于 iOS 系统📱 ，您需要升级到 iOS12➕ 并在 App Store 下载「捷径」APP 后方可使用。</p>
-<p>…</p>
 
- 
-
+<h2>友情提示</h2>
+<p>本站为木子李作者的个人小站，喜欢作者记得收藏本站，更多捷径请前往
+<a href="https://jiejinghe.com" target="_blank">捷径盒官网</a>下载使用！</p>
