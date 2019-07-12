@@ -63,6 +63,27 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
 h2 {text-align:center;}
 p {text-align:left;}
 
+div.img {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
 </style>
 </head>
 
@@ -106,7 +127,25 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
 <p>本站为木子李作者的个人小站，喜欢作者记得收藏本站，更多捷径请前往
 <a href="https://jiejinghe.com" target="_blank">捷径盒官网</a>下载使用！</p>
 
+
+<div class="responsive">
+  <div class="img">
+    <a target="_blank" href="//static.runoob.com/images/demo/demo1.jpg">
+      <img src="https://i.loli.net/2019/07/12/5d282bd0caa4384320.jpeg" alt="征帖" width="auto" height="auto">
+    </a>
+    <div class="desc"> <h2>征婚贴</h2>
+<p>姓名：孙小东</p>
+<p>年龄：31岁</p>
+<p>年收入：10W➕</p> <p>文凭：大专</p>
+ <p>性格：内向</p>
+<p>其他：做的一手好菜，为人真诚、大方！轻度抽烟🚬、饮酒🍻</p>
+
+</div>
+  </div>
+</div>
+
 <div class="ex">
 <h2>®️版权所有|盗版必究</h2>
-<h2> ☞ <a href="http://jiejingkeji.top">网站首页</a> | <a href="mailto:56794501@qq.com">商务合作</a> </h2>
+<h2> <a href="http://jiejingkeji.top">网站首页</a> | <a href="mailto:56794501@qq.com">商务合作</a> </h2>
 </div>
+
