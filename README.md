@@ -44,6 +44,15 @@ li a:hover:not(.active) {
     background-color: #4682b4;
 }
 
+div.ex
+{
+background-color: yellow;
+width:auto;
+padding:10px;
+border:5px solid gray;
+margin:0px;
+}
+
 body {font-size:100%;}
 h1 {font-size:2.5em;}
 h2 {font-size:1.875em;}
@@ -96,3 +105,8 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
 <h2>友情提示</h2>
 <p>本站为木子李作者的个人小站，喜欢作者记得收藏本站，更多捷径请前往
 <a href="https://jiejinghe.com" target="_blank">捷径盒官网</a>下载使用！</p>
+
+<div class="ex">
+<h2>®️版权所有|盗版必究</h2>
+<p> <a href="http://jiejingkeji.top">网站首页</a> | <a href="mailto:56794501@qq.com">商务合作</a> </p>
+</div>
