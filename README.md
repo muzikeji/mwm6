@@ -126,7 +126,7 @@ important;height:40px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
 <h2>友情提示</h2>
 <p>本站为木子李作者的个人小站，喜欢作者记得收藏本站，更多捷径请前往
 <a href="https://jiejinghe.com" target="_blank">捷径盒官网</a>下载使用！</p>
-<p>下面是朋友征婚启事</p>
+<h3>下面是朋友征婚启事</h3>
 
 <div class="responsive">
   <div class="img">
