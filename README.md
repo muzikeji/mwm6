@@ -75,8 +75,8 @@ div.img:hover {
 }
 
 div.img img {
-    width: 100%;
-    height: auto;
+    width: 500;
+   height: auto;
 }
 
 div.desc {
