@@ -67,7 +67,7 @@ div.img {
     margin: 5px;
     border: 1px solid #ccc;
     float: left;
-    width: 180px;
+    width: 100%;
 }
 
 div.img:hover {
@@ -75,7 +75,7 @@ div.img:hover {
 }
 
 div.img img {
-    width: 500;
+    width: 100%;
    height: auto;
 }
 
