@@ -90,16 +90,16 @@ div.desc {
 <a href="https://jiejinghe.com/users/6563404841">
 <img  border="0" src="https://i.loli.net/2019/07/09/5d247f187c97b64789.png" alt="木子李" width="350" height="auto"></a>
 <ul>
-  <li><a href="http://jiejingkeji.top">主页</a></li>
-  <li><a href="https://jiejinghe.com/search">捷径搜索</a></li> 
-<li><a  class="active" href="https://mzljjkj.github.io/.github.io/">关于</a></li>
+  <li><a href="http://muzikeji.cn/">主页</a></li>
+  <li><a href="https://jiejinghe.com/search">搜索</a></li> 
+<li><a  class="active" href="https://mzljjkj.github.io/.github.io/">关于捷径</a></li>
   <li><a href="https://mzljjkj.github.io/iPhone.github.io/">联系</a></li>
  
 </ul>
 
 <div style='height:50px; line-height:auto; text-align:center; color: #000000;'>
  
-    <a href="http://jiejingkeji.top">
+    <a href="http://muzikeji.cn/">
  
         <img style="position:fixed;right:0; bottom:160px; z-index:99999; width:40px !
 important;height:40px !important;" src="http://pic.kuaizhan.com/g2/M00/71/9D/wKjmqlbSmoyAYCswAAEVnPTZD8E8141345" />
