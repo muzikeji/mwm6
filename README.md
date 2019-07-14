@@ -97,17 +97,6 @@ div.desc {
  
 </ul>
 
-<div style='height:50px; line-height:auto; text-align:center; color: #000000;'>
- 
-    <a href="http://muzikeji.cn/">
- 
-        <img style="position:fixed;right:0; bottom:160px; z-index:99999; width:35px !
-important;height:35px !important;" src="http://pic.kuaizhan.com/g2/M00/71/9D/wKjmqlbSmoyAYCswAAEVnPTZD8E8141345" />
- 
-    <a style="z-index:99999;" id="goTop" href="#">
- 
-         <img style="position:fixed;right:0; bottom:100px; z-index:99999; width:35px !
-important;height:35px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQVFbSmpCAdtMEAAEO6ESdBwI3920068" />
 
 <h2>我们主推iPhone <b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b> </h2>
 <h3>如果在 iPhone 上只能保留一款 App ，我一定会选择<b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b></h3>
@@ -127,6 +116,19 @@ important;height:35px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
 <h2>友情提示</h2>
 <p>本站为木子李作者的个人小站，喜欢作者记得收藏本站，更多捷径请前往
 <a href="https://jiejinghe.com" target="_blank">捷径盒官网</a>下载使用！</p>
+
+<div style='height:50px; line-height:auto; text-align:center; color: #000000;'>
+ 
+    <a href="http://muzikeji.cn/">
+ 
+        <img style="position:fixed;right:0; bottom:160px; z-index:99999; width:35px !
+important;height:35px !important;" src="http://pic.kuaizhan.com/g2/M00/71/9D/wKjmqlbSmoyAYCswAAEVnPTZD8E8141345" />
+ 
+    <a style="z-index:99999;" id="goTop" href="#">
+ 
+         <img style="position:fixed;right:0; bottom:100px; z-index:99999; width:35px !
+important;height:35px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQVFbSmpCAdtMEAAEO6ESdBwI3920068" />
+
 <h3>下面是朋友征婚启事</h3>
 
 <div class="responsive">
