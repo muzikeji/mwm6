@@ -63,27 +63,6 @@ a:active {background-color:#FF704D;}  /* 鼠标点击时 */
 h2 {text-align:center;}
 p {text-align:left;}
 
-div.img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 100%;
-}
-
-div.img:hover {
-    border: 1px solid #777;
-}
-
-div.img img {
-    width: 100%;
-   height: auto;
-}
-
-div.desc {
-    padding: 15px;
-    text-align: center;
-}
-
 </style>
 </head>
 
