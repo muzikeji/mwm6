@@ -1,111 +1,198 @@
+
 <html>
 <head>
-<meta charset="utf-8">
+<meta charset="utf-8"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <style>
-
 h1 { display:none; }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-}
 
-li {
-    float: left;
+.active {
+    background-color: #191dea;
 }
-
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-}
-
-li a:hover:not(.active) {
-    background-color: #111;
-}
-
- .thumbnail
-{
-	float:left;
-	margin:5px;
-}
-
 .text_line
 {
 	clear:both;
-	margin-bottom:2px;
+	margin-bottom:0px;
 }
 
-.active {
-    background-color: #1c02f4;
-}
+body{ text-align:center} 
 
 div.ex
 {
-background-color: yellow;
+background-color: #f4ea00;
 width:auto;
-padding:10px;
+padding:5px;
 border:5px solid gray;
 margin:0px;
 }
 
-body {font-size:100%;}
-h1 {font-size:2.5em;}
-h2 {font-size:1.875em;}
-p {font-size:0.875em;}
-a:hover {background-color:#FF704D;}   /* 鼠标移动到链接上 */
-a:active {background-color:#FF704D;}  /* 鼠标点击时 */
+div.ee
+{
+background-color: #000000;
+width:auto;
+padding:0px;
+border:0px solid gray;
+margin:0px;
+}
+p1 {border-style:solid;}
 
-h2 {text-align:center;}
-p {text-align:left;}
+p1.outset {border-bottom-style:outset;}
+
+div.fd
+{
+	float:left;
+	width:320px;
+	height:175px;
+	margin:5px;
+border-radius: 10px;
+    padding: 5px; 
+overflow:hidden;
+}
+div.CC
+{
+	float:left;
+	width:28%;
+	height:50px;
+	line-height:50px; 
+border:blue solid 1px;
+border-radius: 10px;
+    padding: 1px; 
+overflow:hidden;
+margin:5px; 
+}
+p.date {text-align: justify; color:#ffffff; font-size:14px;}
+h3  {text-align: center; color:#ffffff; font-size:20px;}
+h2  {text-align: center; color: #6b93d6; font-size:20px;}
+p.cc  {text-align: center; color:#ffffff; font-size:14px;}
+
+a {
+color: #ffffff;
+text-decoration: none;
+}
+a:active {
+text-decoration: none;
+color: #001997;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+	
 
 </style>
 </head>
+<body>
+
+<script>
+    window.tctipConfig = {
+        //最上面的文字
+        headText: "欢迎打赏支持我 ^_^",
+        //侧边栏文本
+        siderText: "公告 & 打赏",
+        //侧边栏文本高度调整
+        siderTextTop: "-80px",
+        //侧边栏背景颜色
+        siderBgcolor: "#323d45",
+        //整个侧边栏的高度设置可以px，em，或百分比
+        siderTop:"120px",
+        //底部文字
+        buttomText:"了解更多",
+        //底部文字链接
+        buttomLink:"https://github.com/haddyyang/tctip",
+
+        //显示项
+        list:{
+            notice: {icon: "img/icon/tip.png", name:"公告栏", className:"myR-on", text: '这是公告内容,这是公告内容,这是公告内容,<b style="color:red;">这是公告内容</b>,这是公告内容,这是公告内容,这是公告内容'},
+            alipay: {icon: "img/icon/alipay.png", name:"支付宝", desc: "支付宝打赏", qrimg: "img/qr/alipayqr.png"},
+            weixin: {icon: "img/icon/weixin.png", name:"微信", desc: "微信打赏", qrimg: "img/qr/alipayqr.png"}	
+        }
+    };
+</script>
+<script src="http://static.tctip.com/js/tctip.min.js"></script>
+
+<script>
+if(('standalone' in window.navigator)&&window.navigator.standalone){
+        var noddy,remotes=false;
+        document.addEventListener('click',function(event){
+                noddy=event.target;
+                while(noddy.nodeName!=='A'&&noddy.nodeName!=='HTML') noddy=noddy.parentNode;
+                if('href' in noddy&&noddy.href.indexOf('http')!==-1&&(noddy.href.indexOf(document.location.host)!==-1||remotes)){
+                        event.preventDefault();
+                        document.location.href=noddy.href;
+                }
+        },false);
+}
+</script>
+
+</body>
 
 <a href="https://jiejinghe.com/users/6563404841">
-<img  border="0" src="https://i.loli.net/2019/07/09/5d247f187c97b64789.png" alt="木子李" width="350" height="auto"></a>
-<ul>
-  <li><a href="http://muzikeji.cn/">主页</a></li>
-  <li><a href="https://jiejinghe.com/search">搜索</a></li> 
-<li><a  class="active" href="http://jiejingkeji.top">关于捷径</a></li>
-  <li><a href="https://xn--83tu1g.top/?nsukey=m6JcPZyyaIFnlzYPh%2B3gDDlMODhX%2FdoEimrqwQ6hSj7Hc9gw3fDkI2tSd0L4TOU%2FgwGhhYVwNX0cgiAqKnzFQqC4QD9bM%2BG5Hr6VrFXBiPuN%2FLeGa96de%2BrihhzPFihfj5FaJFVUN%2B8bQaaHYjZVhY9jO7frNz%2FefAmGw5BZI8MpW02LF%2Fuzicif%2BHunfAmWeu0kBY7pNXC%2B%2Btzv2l0N0Q%3D%3D">联系</a></li>
+<img  border="0" src="/935D26FB-3F0A-4139-8675-B15DE2E30D14.jpeg" alt="木子李" width="100%" height="auto"></a>
+<p class="text_line"> </p>
+
+<a href="https://jiejinghe.com/search" target="_blank"><div  class="CC" style="background-color: #37a6e2"><p class="cc">
+𝙌搜索捷径</p>
+</div></a>
+<a href="/guanyu.html" target="_blank"><div  class="CC" style="background-color: #2fe1cb"><p class="cc">
+⌘关于捷径</p>
+</div></a>
+<a href="/LX.html" target="_blank"><div  class="CC" style="background-color: #f3a073"><p class="cc">
+✆联系我们</p>
+</div></a>
+<h2 class="text_line">  iPhone 快捷指令</h2>
+<a href="https://jiejinghe.com/shortcuts/7076318015" target="_blank"><div  class="fd" style="background-color: #eb4d4d"><h3>
+<span style= "font-family: Arial"> 双色球 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：这是一个双色球摇号和查询开奖的工具，在这里你可以随机抽取属于你的幸运号码！</p>　
+</div></a>
+<a href="https://www.icloud.com/shortcuts/19b4d6a90dfd40b3b963546cf67b77fe" target="_blank"><div  class="fd" style="background-color: #af54d7"><h3>
+<span style= "font-family: Arial"> 在线影视 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：可‍以‍解析‍各大影视会员视频‍，也可以在线搜索观看视频。解析视频使用方法：1⃣️复制会员视频链接2⃣️运行此捷径，选择解析接口即可播放。</p>　
+</div></a>
+<a href="https://www.icloud.com/shortcuts/19b4a3a22f174700ab33605853138467" target="_blank"><div  class="fd" style="background-color: #5083db"><h3>
+<span style= "font-family: Arial"> 微信引用回复 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：在微信群聊时想针对某条信息进行回复，手机📱不能想电脑💻一样引用回复怎么办？可以用这个快捷指令来实现！</p>　
+</div></a>
+<a href="https://jiejinghe.com/shortcuts/3012186721" target="_blank"><div  class="fd" style="background-color: #7bef80"><h3>
+<span style= "font-family: Arial"> 天气预报 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：这个天气预报捷功能比较强大，基本可以与同类app相媲美，可查询24小时每小时天气预报，还可以查未来10天天气预报；包括降雨量，风向风速，日出日落，紫外线指数等等功能！</p>　
+</div></a>
+<a href="https://www.icloud.com/shortcuts/e7318c10e7f348ffa9214a3e0482432a" target="_blank"><div  class="fd" style="background-color: #e06b3e"><h3>
+<span style= "font-family: Arial"> 每日壁纸 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：每运行一次更换一次壁纸，内置10万➕壁纸，可设置指定时间或地点自动运行更换壁纸！</p>　
+</div></a>
+<a href="https://www.icloud.com/shortcuts/5be9a04d07894562ba9bed7d83e5787a" target="_blank"><div  class="fd" style="background-color: #6495f1"><h3>
+<span style= "font-family: Arial"> 应用图标提取器 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：输入app store应用名称可以快速提取应用程序的图标！</p>　
+</div></a>
+<a href="https://jiejinghe.com/shortcuts/3251736150" target="_blank"><div  class="fd" style="background-color: #4aaebd"><h3>
+<span style= "font-family: Arial"> 常用开关集合 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：集合iPhone手机常用开关于一体，包括网络切换、音量控制、前后相机快速打开、🔦、iOS黑白模式切换等等！</p>　
+</div></a>
+<a href="https://www.icloud.com/shortcuts/6eb9f1ac68b74ce3bb0caeb4488815e6" target="_blank"><div  class="fd" style="background-color: #18226a"><h3>
+<span style= "font-family: Arial"> 智能Wi-Fi开关 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：智能管控你的Wi-Fi，运行后如果Wi-Fi处于打开状态则帮你关闭，处于关闭状态则帮你打开，打开后没有可以链接的Wi-Fi将帮你自动关闭，来节省电能！</p>　
+</div></a>
+<a href="https://jiejinghe.com/shortcuts/9718483448" target="_blank"><div  class="fd" style="background-color: #c368d7"><h3>
+<span style= "font-family: Arial"> 百思不得姐 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：‍ ‍上厕所、‍等‍车、‍‍排队‍办理‍业务‍‍很无聊‍怎么办‍？‍就用“‍它”‍百思不得姐，‍一个‍专注‍段子‍的‍捷径！ 哈哈，‍百思‍不得姐，‍‍‍手机‍必备‍段子‍手</p>　
+</div></a>
+<a href="https://jiejinghe.com/users/6563404841" target="_blank"><div  class="fd" style="background-color: #000000">
+<h2>查看更多</h2><p class="date">联系站主请点击右侧QQ图标或者顶部菜单里点击联系项找适合你的方式联系！</p>　
+</div></a>
+<h2 class="text_line"> </h2>
+<div class="ex">
+<h2>版权所有|盗版必究</h2>
+<h2> <a href="mailto:56794501@qq.com">&nbsp;商务合作</a>|<a href="https://jiejinghe.com/" target="_blank">捷径盒</a> </h2>
+<p>如果本站内容存在侵权，请提供相关专利证书<a href="mailto:56794501@qq.com">致信给我们</a>或者<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=56794501&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:56794501:51" alt="联系客服💁🏻‍♂️" title="联系客服💁🏻‍♂️"/></a>我们将在5个工作日之内进行处理，若未致信我们将视为默认授权，我们将不承担任何法律责任.</p>
+</div>
+  <div style='height:30px; line-height:30px; text-align:center; color: #b2b2b2;'>
  
-</ul>
-
-
-<h2>我们主推iPhone <b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b> </h2>
-<h3>如果在 iPhone 上只能保留一款 App ，我一定会选择<b><a href="https://apps.apple.com/cn/app/%E5%BF%AB%E6%8D%B7%E6%8C%87%E4%BB%A4/id915249334" target="_blank">快捷指令</a></b></h3>
-<h2> 首先我想谈一下捷径的优势是什么？</h2>
-<h4>
-<p>1.简单：捷径是我见过的学习成本最低的脚本语言，它的操作极为简单，通过拖拽即可实现基本的功能，你甚至不用写一行代码。</p>
-<p>2.强大：在捷径 App 被苹果官方收购以后，iOS 为捷径赋予强大的能力，使其完全可以胜任很多小型 App 能完成的所有功能，还可以在一些臃肿的 App 中提取出你需要的功能。</p>
-<p> 3.轻量：它的脚本像小程序一样轻便易用，而且在不运行的时候不会对你造成任何干扰。</p>
-<p> 4.有趣：透过它提供的众多动作，可以组合出许多好玩的功能，就像搭积木一样好玩。</p>
-<h2>快捷指令是什么？</h2>
-<h4>
-<p>快捷指令（原捷径）是 iOS 平台的效率神器，她能让你把多个任务组合成一个快捷方式。例如：您可以建构一个“上班“的快捷指令来获取当前天气，路上预计时间，以及打开音频APP（喜马拉雅，得到）。</p>
-
-<h2>使用快捷指令需要满足什么条件？</h2>
-<p>快捷指令仅适用于 iOS 系统📱 ，您需要升级到 iOS12➕ 并在 App Store 下载「捷径」APP 后方可使用。</p>
-
-<h2>友情提示</h2>
-<p>本站为木子李作者的个人小站，喜欢作者记得收藏本站，更多捷径请前往
-<a href="https://jiejinghe.com" target="_blank">捷径盒官网</a>下载使用！</p>
-
-<div style='height:50px; line-height:auto; text-align:center; color: #000000;'>
- 
-    <a href="http://muzikeji.cn/">
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=56794501&site=qq&menu=yes/">
  
         <img style="position:fixed;right:0; bottom:160px; z-index:99999; width:35px !
-important;height:35px !important;" src="http://pic.kuaizhan.com/g2/M00/71/9D/wKjmqlbSmoyAYCswAAEVnPTZD8E8141345" />
+important;height:35px !important;" src="http://wpa.qq.com/pa?p=2:56794501:52" />
  
     <a style="z-index:99999;" id="goTop" href="#">
  
          <img style="position:fixed;right:0; bottom:100px; z-index:99999; width:35px !
 important;height:35px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQVFbSmpCAdtMEAAEO6ESdBwI3920068" />
-
-
+   <a href="https://k.weidian.com/IN2gD6zv">
+ 
+        <img style="position:fixed;right:0; bottom:220px; z-index:99999; width:35px !
+important;height:50px !important;" src="https://mb.mbd.baidu.com/9jnhgjj?f=cp&u=8900d2fa466983e4" />
