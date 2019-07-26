@@ -7,6 +7,22 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <style>
+
+body {
+/* 加载背景图 */
+background-image: url(images/background-photo.jpg);
+/* 背景图垂直、水平均居中 */
+background-position: center center;
+/* 背景图不平铺 */
+background-repeat: no-repeat;
+/* 当内容高度大于图片高度时，背景图像的位置相对于viewport固定 */
+background-attachment: fixed;
+/* 让背景图基于容器大小伸缩 */
+background-size: cover;
+/* 设置背景颜色，背景图加载过程中会显示背景色 */
+background-color:#18b6ba;
+}
+
 h1 { display:none; }
 
 .active {
@@ -19,6 +35,15 @@ h1 { display:none; }
 }
 
 body{ text-align:center} 
+
+p.ridge {border-style:ridge;
+width:200px;
+	height:auto;
+margin:0 auto;
+border-radius: 20px;
+   }
+
+.div{ border:1px solid#18b6ba; margin:0 auto; } 
 
 div.ex
 {
@@ -87,33 +112,31 @@ a:active {text-decoration:none;}
 </style>
 </head>
 <body>
-
-<script>
-    window.tctipConfig = {
-        //最上面的文字
-        headText: "欢迎打赏支持我 ^_^",
-        //侧边栏文本
-        siderText: "公告 & 打赏",
-        //侧边栏文本高度调整
-        siderTextTop: "-80px",
-        //侧边栏背景颜色
-        siderBgcolor: "#323d45",
-        //整个侧边栏的高度设置可以px，em，或百分比
-        siderTop:"120px",
-        //底部文字
-        buttomText:"了解更多",
-        //底部文字链接
-        buttomLink:"https://github.com/haddyyang/tctip",
-
-        //显示项
-        list:{
-            notice: {icon: "img/icon/tip.png", name:"公告栏", className:"myR-on", text: '这是公告内容,这是公告内容,这是公告内容,<b style="color:red;">这是公告内容</b>,这是公告内容,这是公告内容,这是公告内容'},
-            alipay: {icon: "img/icon/alipay.png", name:"支付宝", desc: "支付宝打赏", qrimg: "img/qr/alipayqr.png"},
-            weixin: {icon: "img/icon/weixin.png", name:"微信", desc: "微信打赏", qrimg: "img/qr/alipayqr.png"}	
-        }
-    };
-</script>
-<script src="http://static.tctip.com/js/tctip.min.js"></script>
+<script src="https://muzikeji.cn/tctip-1.0.0.min.js"></script>
+  <script> 
+  new tctip({
+    top: '15%',
+    button: {
+      id: 9,
+      type: 'dashang',
+    },
+    list: [
+      {
+        type: 'alipay',
+        qrImg: '/417D2AEF-C9BD-4457-9393-D34F7FBA3106.jpeg'
+      }, {
+        type: 'wechat',
+        qrImg: '/95875A75-7E4C-4AB1-BEDA-3C99B27C0AC7.jpeg'
+      }, {
+        type: 'wxq',
+        qrImg: 'https://i.loli.net/2019/07/26/5d3ab5c234f4524856.jpg'
+      }, {
+        type: 'QQq',
+        qrImg: 'https://i.loli.net/2019/07/26/5d3ab5c2b2b9633800.jpg'
+      }
+    ]
+  }).init()
+  </script>
 
 <script>
 if(('standalone' in window.navigator)&&window.navigator.standalone){
@@ -177,8 +200,8 @@ if(('standalone' in window.navigator)&&window.navigator.standalone){
 </div></a>
 <h2 class="text_line"> </h2>
 <div class="ex">
-<h2>版权所有|盗版必究</h2>
-<h2> <a href="mailto:56794501@qq.com">&nbsp;商务合作</a>|<a href="https://jiejinghe.com/" target="_blank">捷径盒</a> </h2>
+<h2><p class="ridge">版权所有|盗版必究</p></h2>
+<h2> <p class="ridge"><a href="mailto:56794501@qq.com">&nbsp;商务合作</a>|<a href="https://jiejinghe.com/" target="_blank">捷径盒</a> </p></h2>
 <p>如果本站内容存在侵权，请提供相关专利证书<a href="mailto:56794501@qq.com">致信给我们</a>或者<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=56794501&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:56794501:51" alt="联系客服💁🏻‍♂️" title="联系客服💁🏻‍♂️"/></a>我们将在5个工作日之内进行处理，若未致信我们将视为默认授权，我们将不承担任何法律责任.</p>
 </div>
   <div style='height:30px; line-height:30px; text-align:center; color: #b2b2b2;'>
@@ -196,3 +219,7 @@ important;height:35px!important;" src="http://pic.kuaizhan.com/g2/M00/71/80/CgpQ
  
         <img style="position:fixed;right:0; bottom:220px; z-index:99999; width:35px !
 important;height:50px !important;" src="https://mb.mbd.baidu.com/9jnhgjj?f=cp&u=8900d2fa466983e4" />
+
+<div class="div">
+
+<p class="ridge">木子科技唯一官方网站</p><p class="cc">版权所有©️木子科技-2019-2028</p><p class="cc">感谢访问本站-好用记得收藏</p></div>
