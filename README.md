@@ -54,7 +54,11 @@ border-radius: 35px;
    overflow:hidden;}
 
 div  img {width:100%}
-
+.text_line
+{
+	clear:both;
+	margin-bottom:0px;
+}
 	#red{
 		background-image: url(https://i.loli.net/2019/07/27/5d3c170ee773143216.jpg);
 		width:340px;
@@ -149,6 +153,8 @@ a:active {text-decoration:none;}
 <body>
 <div  class="sm" style="background-color: #7fc4e5"> <img src="https://i.loli.net/2019/07/27/5d3c317ee785b81349.jpg" alt=""> </div>
 <div  class="mc" style="background-color: #7fc4e5"> <p class="cc">木子科技</p></div>
+<p class="text_line"> </p>
+
 	<a href="http://muzikeji.cn" target="_blank"><div id="box" onmouseover="stop()" onmouseout="start()">
 		<div id="red" class="slide"></div>
 		<div id="green" class="slide"></div>
