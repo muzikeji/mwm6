@@ -7,6 +7,7 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 <style type="text/css">
+h1 { display:none; }
 body {
 /* 加载背景图 */
 background-image: url();
@@ -82,7 +83,7 @@ div  img {width:100%}
 p.date {text-align: justify; color:#ffffff; font-size:14px;}
 h3  {text-align: center; color:#ffffff; font-size:20px;}
 h2  {text-align: center; color: #ffffff; font-size:20px;}
-p.cc  {text-align: center; color:#ffffff; font-size:12px;}
+p.cc  {text-align: center; color:#ffffff; font-size:15px;}
 
 a {
 color: #0508b9;
