@@ -7,8 +7,6 @@
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
 
-<embed src="http://m7c.music.126.net/20190727121148/cb3207346db5f6f7060f782a77523c08/ymusic/055d/065f/515d/272b5d606115f57d5942f79561148769.mp3" hidden="true" autostart="true" loop="true">
-
 <style>
 
 body {
@@ -154,7 +152,7 @@ if(('standalone' in window.navigator)&&window.navigator.standalone){
         },false);
 }
 </script>
-
+<embed src="http://m7c.music.126.net/20190727121148/cb3207346db5f6f7060f782a77523c08/ymusic/055d/065f/515d/272b5d606115f57d5942f79561148769.mp3" hidden="true" autostart="true" loop="true">
 </body>
 
 <a href="https://jiejinghe.com/users/6563404841">
