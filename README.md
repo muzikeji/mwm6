@@ -36,7 +36,13 @@ h1 { display:none; }
 }
 
 body{ text-align:center} 
-
+div.cd {border-radius: 10px;
+border: #e9e9e9 solid 1px;
+width:auto;
+	height:60px;
+margin:0 auto;
+border-radius: 5px;
+   }
 div.sm {border-radius: 10px;
 border: #e9e9e9 solid 1px;
 width:200px;
@@ -158,8 +164,7 @@ if(('standalone' in window.navigator)&&window.navigator.standalone){
 <img  border="0" src="/935D26FB-3F0A-4139-8675-B15DE2E30D14.jpeg" alt="木子李" width="100%" height="auto"></a>
 <embed src="http://m7c.music.126.net/20190727121148/cb3207346db5f6f7060f782a77523c08/ymusic/055d/065f/515d/272b5d606115f57d5942f79561148769.mp3" hidden="true" autostart="true" loop="true">
 <p class="text_line"> </p>
-
-<a href="https://jiejinghe.com/search" target="_blank"><div  class="CC" style="background-color: #37a6e2"><p class="cc">
+<div  class="cd"<a href="https://jiejinghe.com/search" target="_blank"><div  class="CC" style="background-color: #37a6e2"><p class="cc">
 𝙌搜索捷径</p>
 </div></a>
 <a href="/guanyu.html" target="_blank"><div  class="CC" style="background-color: #2fe1cb"><p class="cc">
@@ -167,7 +172,7 @@ if(('standalone' in window.navigator)&&window.navigator.standalone){
 </div></a>
 <a href="/LX.html" target="_blank"><div  class="CC" style="background-color: #f3a073"><p class="cc">
 ✆联系我们</p>
-</div></a>
+</div></a></div>
 <h2 class="text_line">  iPhone 快捷指令</h2>
 <a href="https://jiejinghe.com/shortcuts/7076318015" target="_blank"><div  class="fd" style="background-color: #eb4d4d"><h3>
 <span style= "font-family: Arial"> 双色球 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：这是一个双色球摇号和查询开奖的工具，在这里你可以随机抽取属于你的幸运号码！</p>　
