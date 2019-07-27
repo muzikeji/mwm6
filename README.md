@@ -38,7 +38,7 @@ h1 { display:none; }
 body{ text-align:center} 
 
 div.sm {border-radius: 10px;
-
+border: #e9e9e9 solid 1px;
 width:200px;
 	height:20px;
 margin:0 auto;
@@ -72,7 +72,7 @@ div.fd
 	width:320px;
 	height:175px;
 	margin:5px;
-
+border: #e9e9e9 solid 1px;
 border-radius: 10px;
     padding: 5px; 
 overflow:hidden;
@@ -152,11 +152,11 @@ if(('standalone' in window.navigator)&&window.navigator.standalone){
         },false);
 }
 </script>
-<embed src="http://m7c.music.126.net/20190727121148/cb3207346db5f6f7060f782a77523c08/ymusic/055d/065f/515d/272b5d606115f57d5942f79561148769.mp3" hidden="true" autostart="true" loop="true">
 </body>
 
 <a href="https://jiejinghe.com/users/6563404841">
 <img  border="0" src="/935D26FB-3F0A-4139-8675-B15DE2E30D14.jpeg" alt="木子李" width="100%" height="auto"></a>
+<embed src="http://m7c.music.126.net/20190727121148/cb3207346db5f6f7060f782a77523c08/ymusic/055d/065f/515d/272b5d606115f57d5942f79561148769.mp3" hidden="true" autostart="true" loop="true">
 <p class="text_line"> </p>
 
 <a href="https://jiejinghe.com/search" target="_blank"><div  class="CC" style="background-color: #37a6e2"><p class="cc">
