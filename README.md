@@ -86,7 +86,7 @@ overflow:hidden;
 div.CC
 {
 	float:left;
-	width:32%;
+	width:31%;
 	height:50px;
 	line-height:50px; 
 border:blue solid 1px;
