@@ -118,6 +118,18 @@ border-radius: 10px;
 overflow:hidden;
 margin:5px; 
 }
+div.CD
+{
+	float:left;
+	width:45%;
+	height:50px;
+	line-height:50px; 
+border:blue solid 1px;
+border-radius: 10px;
+    padding: 1px; 
+overflow:hidden;
+margin:5px; 
+}
 .text_line
 {
 	clear:both;
@@ -208,7 +220,7 @@ a:active {text-decoration:none;}
 </script>
 </head>
 <body>
-<div  class="sm" style="background-color: #7fc4e5"> <img src="https://i.loli.net/2019/07/27/5d3c317ee785b81349.jpg" alt="1" width="70" height="70"> </div>
+<div  class="sm" style="background-color: #7fc4e5"> <img src="https://i.loli.net/2019/07/27/5d3c317ee785b81349.jpg" alt="Computer man" width="70" height="70"> </div>
 <div  class="mc" style="background-color: #7fc4e5"> <p class="cc">木子科技</p></div>
 <p class="text_line"> </p>
 
@@ -219,15 +231,15 @@ a:active {text-decoration:none;}
 	</div></a>
 
 <p class="text_line"> </p>
-<div  class="cz"><a href="https://jiejinghe.com/search" target="_blank"><div  class="CC" style="background-color: #37a6e2"><p class="cc">
+<div  class="cz"><a href="/LX.html" target="_blank"><div  class="CC" style="background-color: #f3a073"><p class="cc">
+⌘ 下载捷径</p>
+</div></a><a href="https://jiejinghe.com/search" target="_blank"><div  class="CC" style="background-color: #37a6e2"><p class="cc">
 𝙌搜索捷径</p>
 </div></a>
 <a href="/guanyu.html" target="_blank"><div  class="CC" style="background-color: #2fe1cb"><p class="cc">
-⌘关于捷径</p>
+〠关于捷径</p>
 </div></a>
-<a href="/LX.html" target="_blank"><div  class="CC" style="background-color: #f3a073"><p class="cc">
-✆联系我们</p>
-</div></a>
+</div>
 <p class="text_line"> </p>
 <div  class="tp"><img class="thumbnail" src="https://i.loli.net/2019/07/27/5d3c40e2f0e9124271.jpg" width="46%" height="80" alt="Planets" usemap="#1">
 
@@ -242,9 +254,15 @@ a:active {text-decoration:none;}
 <div  class="tp"> <a href="//www.runoob.com/html/html-tutorial.html">
 <img  border="0" src="https://i.loli.net/2019/07/27/5d3c4b6e4773234939.jpg" alt="快捷指令" width="100%" height="auto"></a></div>
 <h2 class="text_line"> </h2>
+<div  class="tp"><a href="/LX.html" target="_blank"><div  class="CD" style="background-color: #f4b300"><p class="cc">
+𝕯 关注微博</p>
+</div></a><a href="/LX.html" target="_blank"><div  class="CD" style="background-color: #04020c"><p class="cc">
+♪ 关注抖音</p>
+</div></a></div>
+<h2 class="text_line"> </h2>
 <div class="ex">
 <h2>【温馨提示】</h2>
-<h2><a href="mailto:56794501@qq.com">&nbsp;商务合作</a>|<a href="https://jiejinghe.com/" target="_blank">捷径盒</a> </h2>
+<p class="cc"><a href="mailto:56794501@qq.com">&nbsp;商务合作</a>|<a href="https://jiejinghe.com/" target="_blank">捷径盒</a> </p>
 <p>如果本站内容存在侵权，请提供相关专利证书<a href="mailto:56794501@qq.com">致信给我们</a>或者<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=56794501&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:56794501:51" alt="联系客服💁🏻‍♂️" title="联系客服💁🏻‍♂️"/></a>我们将在5个工作日之内进行处理，若未致信我们将视为默认授权，我们将不承担任何法律责任.</p>
 </div>
 
@@ -253,5 +271,4 @@ a:active {text-decoration:none;}
 <p class="cc">感谢访问本站好用记得收藏</p>
 <div  class="s" style="background-color: #7fc4e5"><p class="cc">
 木子科技唯一官方网站</p></div><p class="cc">版权所有©️木子科技(2019-2028)</p>
-</body>
-</html>
+
