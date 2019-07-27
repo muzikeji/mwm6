@@ -208,7 +208,7 @@ a:active {text-decoration:none;}
 </script>
 </head>
 <body>
-<div  class="sm" style="background-color: #7fc4e5"> <img src="https://i.loli.net/2019/07/27/5d3c317ee785b81349.jpg" alt=""Computer man" width="70" height="70"> </div>
+<div  class="sm" style="background-color: #7fc4e5"> <img src="https://i.loli.net/2019/07/27/5d3c317ee785b81349.jpg" alt="1" width="70" height="70"> </div>
 <div  class="mc" style="background-color: #7fc4e5"> <p class="cc">木子科技</p></div>
 <p class="text_line"> </p>
 
