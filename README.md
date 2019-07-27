@@ -40,8 +40,8 @@ border-radius: 5px;
    }
 div.sm {border-radius: 10px;
 border: #e9e9e9 solid 1px;
-width:100px;
-	height:100px;
+width:70px;
+	height:70px;
 margin:0 auto;
 border-radius: 50%;
    overflow:hidden;}
