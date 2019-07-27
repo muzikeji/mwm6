@@ -218,8 +218,10 @@ if(('standalone' in window.navigator)&&window.navigator.standalone){
 </div>
 
 <p class="text_line"> </p>
+
+<p class="cc">感谢访问本站好用记得收藏</p>
 <div  class="sm" style="background-color: #7fc4e5"><p class="cc">
-木子科技唯一官方网站</p></div><p class="cc">版权所有©️木子科技(2019-2028)</p><p class="cc">感谢访问本站好用记得收藏</p>
+木子科技唯一官方网站</p></div><p class="cc">版权所有©️木子科技(2019-2028)</p>
  <div style='height:30px; line-height:30px; text-align:center; color: #b2b2b2;'>
     <a href="http://wpa.qq.com/msgrd?v=3&uin=56794501&site=qq&menu=yes/">
  
