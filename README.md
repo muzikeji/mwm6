@@ -101,7 +101,7 @@ h2  {text-align: center; color: #ffffff; font-size:20px;}
 p.cc  {text-align: center; color:#ffffff; font-size:14px;}
 
 a {
-color: #ffffff;
+color: #0508b9;
 text-decoration: none;
 }
 a:active {
