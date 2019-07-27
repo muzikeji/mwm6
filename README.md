@@ -6,6 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<embed src="http://m7c.music.126.net/20190727121148/cb3207346db5f6f7060f782a77523c08/ymusic/055d/065f/515d/272b5d606115f57d5942f79561148769.mp3" hidden="true" autostart="true" loop="true">
+
 <style>
 
 body {
@@ -197,6 +200,9 @@ if(('standalone' in window.navigator)&&window.navigator.standalone){
 </div></a>
 <a href="https://jiejinghe.com/shortcuts/9718483448" target="_blank"><div  class="fd" style="background-color: #c368d7"><h3>
 <span style= "font-family: Arial"> 百思不得姐 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：‍ ‍上厕所、‍等‍车、‍‍排队‍办理‍业务‍‍很无聊‍怎么办‍？‍就用“‍它”‍百思不得姐，‍一个‍专注‍段子‍的‍捷径！ 哈哈，‍百思‍不得姐，‍‍‍手机‍必备‍段子‍手</p>　
+</div></a>
+<a href="https://www.icloud.com/shortcuts/21ef79f2c297417c9ec32dce88775421" target="_blank"><div  class="fd" style="background-color: #a4a4a4"><h3>
+<span style= "font-family: Arial"> iOS配置文件 </span>  <span style="font-family: 宋体"> </span></h3> <p class="date">简介：本捷径提功各种iOS beta 配置文件下载，包括iPhone、iPad、MAC、 Apple TV、watch！</p>　
 </div></a>
 <a href="https://jiejinghe.com/users/6563404841" target="_blank"><div  class="fd" style="background-color: #000000">
 <h2>查看更多</h2><p class="date">联系站主请点击右侧QQ图标或者顶部菜单里点击联系项找适合你的方式联系！</p>　
