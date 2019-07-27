@@ -38,7 +38,7 @@ h1 { display:none; }
 body{ text-align:center} 
 div.cd {border-radius: 10px;
 border: #e9e9e9 solid 1px;
-width:90%;
+width:86%;
 	height:60px;
 margin:0 auto;
 border-radius: 5px;
