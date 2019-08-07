@@ -227,6 +227,7 @@ $context  = stream_context_create($opts);
 return $result = file_get_contents('https://sc.ftqq.com/'.$key.'.send', false, $context);
 
 }</script> 
+<h5>发送信息给官方微</h5>
 
 <form action="http://www.baidu.com/baidu" target="_blank">
 <table bgcolor="#FFFFFF"><tr><td>
