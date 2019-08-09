@@ -123,7 +123,7 @@
             var $img = $(".active>img");
             //返回被选元素的属性值
             var name = $img.attr("data-imgname");
-            var src = "../images/charge/" + name + ".png";
+            var src = "/images/charge/" + name + ".png";
             $img.attr("src", src);
             $(".active").removeClass("active");
 
@@ -132,7 +132,7 @@
             //找到所有 div(subMenu) 的子元素(img)
             $img = $(this).children("img");
             name = $img.attr("data-imgname");
-            src = "../images/charge/" + name + "_active.png";
+            src = "/images/charge/" + name + "_active.png";
             //设置img的属性和值。
             $img.attr("src", src);
 
