@@ -1,97 +1,81 @@
-*{
-    margin:0;
-    padding:0;
+html{
+	font-family: sans-serif;
 }
-/*底部banner模块*/
-.banner {
-    width: 790px;
-    height: 340px;
-    border: 5px solid gold;
-    margin: 50px auto;
-    /*定位  让子级在使用绝对定位的时候 以父级为参考*/
-    position: relative;/*不脱离文档流 对网页标签无影响*/
+html,body,header,section,footer,div,ul,ol,li,img,a,span,em,del,legend,center,strong,var,fieldset,form,label,dl,dt,dd,cite,input,hr,time,mark,code,figcaption,figure,textarea,h1,h2,h3,h4,h5,h6,p{
+	margin:0;
+	border:0;
+	padding:0;
+	font-style:normal;
 }
-/*高清 ** 大图 */
-.content {
-    list-style:none;/*去除列表自带圆点*/
-    position: relative;
+html,body {
+	-webkit-touch-callout:none;
+	-webkit-text-size-adjust:none;
+	-webkit-tap-highlight-color:rgba(0, 0, 0, 0);
+	-webkit-user-select:none;
+	background-color: #fff;
 }
-.content > li{
-    position: absolute;
-    top:0;
-    left:0;
-    /*先全部隐藏*/
-    opacity:0;
-    /*添加切换图片的过渡动画*/
-    transition:opacity 0.5s;
+nav,article,aside,details,main,header,footer,section,fieldset,figcaption,figure{
+	display: block;
 }
-.content>li:nth-child(1){
-    opacity:1;
+img,a,button,em,del,strong,var,label,cite,small,time,mark,code,textarea{
+	display:inline-block;
 }
-/*按钮*/
-.button {
-    padding-top: 140px;
-    position: relative;
+header,section,footer {
+	position:relative;
 }
-.left,.right {
-    width: 30px;
-    height: 60px;
-    position: absolute;
-    background-color: rgba(0,0,0,0.1);
-    opacity:0;
+ol,ul{
+	list-style:none;
 }
-
-/*鼠标划入就显示*/
-/******  hover后面不可使用群组性的选择器*/
-.banner:hover .button>.left {
-    opacity:1;
+input,button,textarea {
+	border:0;
+	margin:0;
+	padding:0;
+	font-size:1em;
+	line-height:1em;
+	/*-webkit-appearance:none;*/
+	background-color:rgba(0, 0, 0, 0);
 }
-.banner:hover .right{
-    opacity:1;
+span{
+	display:inline-block;
 }
-/*鼠标划入按钮 颜色加深*/
-.left:hover, .right:hover{
-    background-color: rgba(0,0,0,0.5);
+a:active, a:hover {
+  outline: 0;
 }
-/*添加背景图片  箭头 > */
-.left {
-    left:0;
-    background-image: url("../img/left.png");
-    background-repeat: no-repeat;
-    background-position: center;
+a, a:visited{
+	text-decoration:none;
 }
-.right {
-    right:0;
-    background-image: url("../img/right.png");
-    background-repeat: no-repeat;
-    background-position: center;
+ 
+label, .wordWrap{
+    word-wrap: break-word;
+    word-break: break-all;
 }
-/*----------*/
-/*小圆点*/
-.dot {
-    list-style:none;
-    position: absolute;
-    left: 50%;
-    bottom: 30px;
-    background-color: rgba(255, 255,255, 0.3);
-    border-radius: 12px;
-    padding:5px;
-    margin-left: -94px;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
 }
-.dot li {
-    width:12px;
-    height: 12px;
-    border-radius: 6px;
-    background-color: white;
-    float: left;
-    margin-left: 5px;
-    margin-right: 5px;
+td,th {
+  padding: 0;
 }
-.dot li:nth-child(1){
-    background-color: #dc192a;
+.clearfix:after{
+	content: ' ';
+	display: block;
+	clear: both;
+	visibility:hidden;
+	line-height: 0;
+	height:0;
 }
-
-
-
-
-
+.loading_more{
+	display: block;
+	height: 1.5em;
+	width: 100%;
+}
+.loading_more:before {
+	display: inline-block; vertical-align: text-bottom;
+	content: ' '; height: 16px; width: 16px; margin-right: 6px;
+	background: url(../image/loading_more.gif) no-repeat center;
+	-webkit-background-size: contain;
+	background-size: contain;
+} 
+.loading_more:after {
+	content: '加载更多';	
+}
