@@ -1,47 +1,103 @@
-/*模态框*/
-.modal {
-    display: none; /* 默认隐藏 */
-    position: fixed; /* 根据浏览器定位 */
-    z-index: 1; /* 放在顶部 */
+h4{
+    margin-left: 20px;
+}
+p{
+    text-align: center;
+}
+.btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    background-color: cornflowerblue;
+}
+.btn:hover, .btn:focus{
+    background-color: #95b4ed;
+}
+.modal{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
     left: 0;
     top: 0;
-    width: 100%; /* 全宽 */
-    height: 100%; /* 全高 */
-    overflow: auto; /* 允许滚动 */
-    background-color: rgba(0,0,0,0.4); /* 背景色 */
+    z-index: 1000;
+    background-color: rgba(0,0,0,0.5);
 }
-/*模态框内容*/
-.modal-content {
-    display: flex; /*采用flexbox布局*/
-    flex-direction: column; /*垂直排列*/
-    position: relative;
-    background-color: #fefefe;
-    margin: 15% auto; /*距顶部15% 水平居中*/
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-    animation: topDown 0.4s; /*自定义动画，从模态框内容上到下出现*/
+.modal-content{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    width: 50%;
+    max-width: 700px;
+    height: 40%;
+    max-height: 500px;
+    margin: 100px auto;
+    border-radius:10px;
+    background-color:#fff;
+    -webkit-animation: zoom 0.6s;
+    animation: zoom 0.6s;
+    resize: both;
+    overflow: auto;
 }
-@keyframes topDown {
-    from {top: -300px; opacity: 0}
-    to {top: 0; opacity: 1}
+@-webkit-keyframes zoom{
+    from {-webkit-transform: scale(0)}
+    to {-webkit-transform: scale(1)}
 }
-/*模态框头部*/
-.modal-header {
-    display: flex; /*采用flexbox布局*/
-    flex-direction: row; /*水平布局*/
-    align-items: center; /*内容垂直居中*/
-    justify-content: space-between; 
+@keyframes zoom{
+    from {transform: scale(0)}
+    to {transform: scale(1)}
 }
-/*关闭X 样式*/
-.close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
+.modal-header{
+    box-sizing:border-box;
+    border-bottom:1px solid #ccc;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.close{
+    color: #b7b7b7;
+    font-size: 30px;
     font-weight: bold;
+    margin-right: 20px;
+    transition: all 0.3s;
 }
-.close:hover {
-    color: black;
+.close:hover, .close:focus{
+    color: #95b4ed;
     text-decoration: none;
     cursor: pointer;
+}
+.modal-body{
+    padding: 10px;
+    font-size: 16px;
+    box-sizing:border-box;
+}
+.modal-footer{
+    box-sizing:border-box;
+    border-top:1px solid #ccc;
+    display: flex;
+    padding: 15px;
+    justify-content: flex-end;
+    align-items: center;
+}
+.modal-footer button{
+    width: 60px;
+    height: 35px;
+    padding: 5px;
+    box-sizing: border-box;
+    margin-right: 10px;
+    font-size: 16px;
+    color: white;
+    border-radius: 5px;
+    background-color: cornflowerblue;
+}
+.modal-footer button:hover, .modal-footer button:focus{
+    background-color: #95b4ed;
+    cursor: pointer;
+}
+@media only screen and (max-width: 700px){
+    .modal-content {
+        width: 80%;
+    }
 }
